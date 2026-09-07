@@ -1,23 +1,45 @@
-import "package:elkollege_schedule_app/presentation/pages/home_page.dart";
+import "package:elkollege_schedule_app/elkollege_schedule_app.dart";
 import "package:flutter/material.dart";
 import "package:flutter_localizations/flutter_localizations.dart";
-import "package:go_router/go_router.dart";
+import "package:flutter_riverpod/flutter_riverpod.dart";
+import "package:web/web.dart" as web;
 
-class Application extends StatelessWidget {
-  const Application({super.key});
+class Application extends ConsumerWidget {
+  const new({super.key});
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp.router(
-      routerConfig: GoRouter(
-        routes: <RouteBase>[
-          GoRoute(path: "/", builder: (_, _) => const HomePage()),
+      routerConfig: ref.watch(routerProvider),
+      title: "Расписание ЭК",
+      theme: .light().copyWith(
+        extensions: <ThemeExtension<dynamic>>[
+          const CustomTheme(palette: .light()),
         ],
       ),
-      title: "Расписание ЭК",
-      theme: .from(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
+      darkTheme: .dark().copyWith(
+        extensions: <ThemeExtension<dynamic>>[
+          const CustomTheme(palette: .dark()),
+        ],
+      ),
+      themeMode: ref.watch(themeServiceProvider),
       localizationsDelegates: GlobalMaterialLocalizations.delegates,
-      supportedLocales: const <Locale>[Locale("ru", "RU")],
+      supportedLocales: const <Locale>[.new("ru", "RU")],
+      builder: (BuildContext context, Widget? child) {
+        _setDocumentBackgroundColor(context.customTheme.palette.background);
+
+        return child!;
+      },
     );
+  }
+
+  void _setDocumentBackgroundColor(Color backgroundColor) {
+    final String colorString = backgroundColor
+        .toARGB32()
+        .toRadixString(16)
+        .substring(2, 8);
+
+    (web.document.documentElement as web.HTMLElement?)?.style.backgroundColor =
+        "#$colorString";
   }
 }

@@ -2,16 +2,8 @@
   "name": "Расписание ЭК",
   "description": "Приложение для просмотра актуального расписания ЭК",
   "display": "standalone",
-  "theme_color": [
-    {
-      "media": "(prefers-color-scheme: light)",
-      "color": "#FFFFFF"
-    },
-    {
-      "media": "(prefers-color-scheme: dark)",
-      "color": "#000000"
-    }
-  ],
+  "background_color": "#EEEEEE",
+  "theme_color": "#EEEEEE",
   "icons": [
     {
       "src": "assets/favicons/favicon-192.png",
