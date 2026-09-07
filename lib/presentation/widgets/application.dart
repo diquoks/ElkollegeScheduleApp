@@ -12,34 +12,35 @@ class Application extends ConsumerWidget {
     return MaterialApp.router(
       routerConfig: ref.watch(routerProvider),
       title: "Расписание ЭК",
-      theme: .light().copyWith(
-        extensions: <ThemeExtension<dynamic>>[
-          const CustomTheme(palette: .light()),
-        ],
-      ),
-      darkTheme: .dark().copyWith(
-        extensions: <ThemeExtension<dynamic>>[
-          const CustomTheme(palette: .dark()),
-        ],
-      ),
+      theme: _getCustomThemeData(.light()),
+      darkTheme: _getCustomThemeData(.dark()),
       themeMode: ref.watch(themeServiceProvider),
       localizationsDelegates: GlobalMaterialLocalizations.delegates,
       supportedLocales: const <Locale>[.new("ru", "RU")],
       builder: (BuildContext context, Widget? child) {
-        _setDocumentBackgroundColor(context.customTheme.palette.background);
+        final String colorString = context.customTheme.palette.background
+            .toARGB32()
+            .toRadixString(16)
+            .substring(2, 8);
+
+        (web.document.documentElement as web.HTMLElement?)
+                ?.style
+                .backgroundColor =
+            "#$colorString";
 
         return child!;
       },
     );
   }
 
-  void _setDocumentBackgroundColor(Color backgroundColor) {
-    final String colorString = backgroundColor
-        .toARGB32()
-        .toRadixString(16)
-        .substring(2, 8);
-
-    (web.document.documentElement as web.HTMLElement?)?.style.backgroundColor =
-        "#$colorString";
-  }
+  ThemeData _getCustomThemeData(ThemeData themeData) => themeData.copyWith(
+    extensions: <ThemeExtension<dynamic>>[
+      CustomTheme(
+        palette: switch (themeData.brightness) {
+          .light => const .light(),
+          .dark => const .dark(),
+        },
+      ),
+    ],
+  );
 }
