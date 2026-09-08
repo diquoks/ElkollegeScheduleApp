@@ -4,7 +4,7 @@ import "package:flutter/material.dart";
 class CustomIconButton extends StatelessWidget {
   const new({super.key, required this._onPressed, required this._icon});
 
-  final VoidCallback _onPressed;
+  final VoidCallback? _onPressed;
   final IconData _icon;
 
   @override
@@ -13,7 +13,7 @@ class CustomIconButton extends StatelessWidget {
       iconSize: 32,
       padding: const .all(8),
       onPressed: _onPressed,
-      icon: Icon(_icon, color: context.customTheme.palette.contrastSecondary),
+      icon: Icon(_icon, color: context.palette.contrastSecondary),
     );
   }
 }

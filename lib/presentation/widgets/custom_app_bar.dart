@@ -11,14 +11,14 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: const .only(left: 24, right: 16, top: 8, bottom: 8),
-      color: context.customTheme.palette.background,
+      color: context.palette.background,
       child: Row(
         mainAxisAlignment: .spaceBetween,
         children: <Widget>[
           Text(
             _title,
-            style: CustomStyles.openSansRegular24_28.copyWith(
-              color: context.customTheme.palette.contrast,
+            style: context.styles.openSansRegular24_28.copyWith(
+              color: context.palette.contrast,
             ),
           ),
           Row(spacing: 8, children: _actions),

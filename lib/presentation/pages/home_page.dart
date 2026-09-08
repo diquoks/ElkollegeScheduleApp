@@ -10,17 +10,18 @@ class HomePage extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
-      appBar: CustomAppBar(
+      appBar: const CustomAppBar(
         title: "Расписание ЭК",
         actions: <Widget>[
-          const ThemeIconButton(),
+          ThemeIconButton(),
           CustomIconButton(
-            onPressed: () => throw UnimplementedError(),
+            onPressed: null, // TODO
             icon: Icons.admin_panel_settings_rounded,
           ),
         ],
       ),
-      backgroundColor: context.customTheme.palette.background,
+      backgroundColor: context.palette.background,
+      body: const SingleChildScrollView(child: ScheduleWidget()),
     );
   }
 }
