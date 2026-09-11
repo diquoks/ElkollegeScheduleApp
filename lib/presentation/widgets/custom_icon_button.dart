@@ -2,10 +2,10 @@ import "package:elkollege_schedule_app/elkollege_schedule_app.dart";
 import "package:flutter/material.dart";
 
 class CustomIconButton extends StatelessWidget {
-  const new({super.key, required this._onPressed, required this._icon});
+  const new({super.key, required this._icon, required this._onPressed});
 
-  final VoidCallback? _onPressed;
   final IconData _icon;
+  final VoidCallback? _onPressed;
 
   @override
   Widget build(BuildContext context) {

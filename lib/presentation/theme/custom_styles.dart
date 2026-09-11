@@ -40,14 +40,46 @@ class CustomStyles {
         color: _palette.contrastSecondary,
       ),
       contentPadding: const .only(left: 16, top: 4, bottom: 4, right: 4),
-      focusedBorder: _outlineInputBorder(_palette.contrastSecondary),
-      enabledBorder: _outlineInputBorder(_palette.border),
+      focusedBorder: outlineInputBorder(color: _palette.contrastSecondary),
+      disabledBorder: outlineInputBorder(),
+      enabledBorder: outlineInputBorder(),
     ),
-    textSelectionTheme: .new(cursorColor: _palette.contrast),
+    dropdownMenuTheme: .new(
+      menuStyle: .new(
+        backgroundColor: .all(_palette.background),
+        elevation: .all(0),
+        padding: .all(.zero),
+        maximumSize: .all(.infinite),
+        shape: .all(roundedRectangleBorder()),
+        visualDensity: .compact,
+      ),
+    ),
+    textSelectionTheme: .new(
+      cursorColor: _palette.contrast,
+      selectionColor: _palette.contrastSecondary.withAlpha(0x7F),
+      selectionHandleColor: _palette.contrast,
+    ),
   );
 
-  InputBorder _outlineInputBorder(Color color) => OutlineInputBorder(
-    borderSide: .new(color: color, width: 2),
-    borderRadius: const .all(.circular(8)),
+  OutlineInputBorder outlineInputBorder({Color? color, double? strokeAlign}) =>
+      .new(
+        borderSide: borderSide.copyWith(color: color, strokeAlign: strokeAlign),
+        borderRadius: borderRadius,
+      );
+
+  RoundedRectangleBorder roundedRectangleBorder({
+    Color? color,
+    double? strokeAlign,
+  }) => .new(
+    side: borderSide.copyWith(color: color, strokeAlign: strokeAlign),
+    borderRadius: borderRadius,
   );
+
+  Border border({Color? color, double? strokeAlign}) => .fromBorderSide(
+    borderSide.copyWith(color: color, strokeAlign: strokeAlign),
+  );
+
+  BorderSide get borderSide => .new(color: _palette.border, width: 2);
+
+  BorderRadius get borderRadius => const .all(.circular(8));
 }

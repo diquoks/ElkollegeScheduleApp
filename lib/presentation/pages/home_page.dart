@@ -15,8 +15,8 @@ class HomePage extends ConsumerWidget {
         actions: <Widget>[
           ThemeIconButton(),
           CustomIconButton(
-            onPressed: null, // TODO
             icon: Icons.admin_panel_settings_rounded,
+            onPressed: null, // TODO: open `AdminLoginPage`
           ),
         ],
       ),

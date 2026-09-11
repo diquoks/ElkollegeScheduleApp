@@ -2,14 +2,22 @@ import "package:elkollege_schedule_app/elkollege_schedule_app.dart";
 import "package:flutter/material.dart";
 
 class CustomDropdownMenu<T> extends StatelessWidget {
-  const new({super.key, required this._label});
+  const new({
+    super.key,
+    required this._controller,
+    required this._label,
+    required this._entries,
+  });
 
+  final TextEditingController _controller;
   final String _label;
+  final List<DropdownMenuEntry<T>> _entries;
 
   @override
   Widget build(BuildContext context) {
+    // TODO: add new parameters to configure more flexibly
     return DropdownMenu<T>(
-      expandedInsets: .zero,
+      enabled: _entries.isNotEmpty,
       textStyle: context.styles.openSansRegular18_24.copyWith(
         color: context.palette.contrast,
       ),
@@ -20,17 +28,20 @@ class CustomDropdownMenu<T> extends StatelessWidget {
             padding: const .all(4),
             child: (controller?.isOpen ?? false)
                 ? CustomIconButton(
-                    onPressed: () => controller?.close(),
                     icon: Icons.arrow_drop_up_rounded,
+                    onPressed: () => controller?.close(),
                   )
                 : CustomIconButton(
-                    onPressed: () => controller?.open.call(),
                     icon: Icons.arrow_drop_down_rounded,
+                    onPressed: () => controller?.open(),
                   ),
           ),
         );
       },
-      dropdownMenuEntries: .empty(),
-    ); // TODO
+      controller: _controller,
+      expandedInsets: .zero,
+      alignmentOffset: const .new(0, 8),
+      dropdownMenuEntries: _entries,
+    );
   }
 }
