@@ -3,19 +3,56 @@
 <head>
     <base href="$FLUTTER_BASE_HREF">
     <meta charset="utf-8">
-    <!--<link href="https://schedule.elkollege.ru" rel="canonical"/>-->
-    <link rel="manifest" href="manifest.json">
-    <!--TODO: assets/favicons-->
-    <!--<link sizes="any" href="assets/favicons/favicon.ico" rel="icon"/>-->
-    <!--<link sizes="180x180" href="assets/favicons/apple-touch-icon.png" rel="apple-touch-icon"/>-->
+    <!--<link href="https://schedule.elkollege.ru" rel="canonical">-->
+    <link href="manifest.json" rel="manifest">
+    <link sizes="any" href="favicon.ico" rel="icon">
+    <link sizes="180x180" href="assets/favicons/apple-touch-icon.png" rel="apple-touch-icon">
     <title>Расписание ЭК</title>
     <meta name="title" content="Расписание ЭК">
     <meta name="description" content="Приложение для просмотра актуального расписания ЭК">
-    <meta name="mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
-    <meta name="apple-mobile-web-app-title" content="Расписание ЭК"/>
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Расписание ЭК">
 </head>
 <body>
+<script>
+    const FlutterThemeMode = {
+        system: "0",
+        light: "1",
+        dark: "2",
+    };
+    const FlutterBrightness = {
+        light: "0",
+        dark: "1",
+    };
+
+    const themeMode = localStorage.getItem("themeMode");
+    const brightness = (() => {
+        switch (themeMode) {
+            case FlutterThemeMode.light:
+                return FlutterBrightness.light;
+
+            case FlutterThemeMode.dark:
+                return FlutterBrightness.dark;
+
+            case FlutterThemeMode.system:
+            default:
+                return window.matchMedia("(prefers-color-scheme: light)").matches
+                    ? FlutterBrightness.light
+                    : FlutterBrightness.dark;
+        }
+    })();
+
+    document.documentElement.style.backgroundColor = (() => {
+        switch (brightness) {
+            case FlutterBrightness.light:
+                return "#EEEEEE";
+
+            case FlutterBrightness.dark:
+                return "#111111";
+        }
+    })();
+</script>
 <script>
     {{flutter_bootstrap_js}}
 </script>
