@@ -21,7 +21,13 @@ class HomePage extends ConsumerWidget {
         ],
       ),
       backgroundColor: context.palette.background,
-      body: const SingleChildScrollView(child: ScheduleWidget()),
+      body: CustomRefreshIndicator(
+        onRefresh: () => ref.refresh(schedulesProvider.future),
+        child: ListView(
+          physics: const AlwaysScrollableScrollPhysics(),
+          children: <Widget>[const ScheduleWidget()],
+        ),
+      ),
     );
   }
 }

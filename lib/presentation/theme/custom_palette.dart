@@ -40,9 +40,7 @@ class CustomPalette extends ThemeExtension<CustomPalette> {
 
   @override
   CustomPalette lerp(covariant CustomPalette? other, double t) {
-    if (other == null) {
-      return this;
-    }
+    if (other == null) return this;
 
     return ._(
       background: .lerp(background, other.background, t)!,

@@ -14,9 +14,7 @@ class StorageUseCase {
   ThemeMode get themeMode {
     final int? value = _storageManager.themeMode;
 
-    if (value == null) {
-      return .system;
-    }
+    if (value == null) return .system;
 
     return .values.elementAtOrNull(value) ?? .system;
   }

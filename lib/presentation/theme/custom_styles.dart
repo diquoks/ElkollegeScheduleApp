@@ -44,6 +44,7 @@ class CustomStyles {
       disabledBorder: outlineInputBorder(),
       enabledBorder: outlineInputBorder(),
     ),
+    progressIndicatorTheme: progressIndicatorThemeData,
     dropdownMenuTheme: .new(
       menuStyle: .new(
         backgroundColor: .all(_palette.background),
@@ -82,4 +83,10 @@ class CustomStyles {
   BorderSide get borderSide => .new(color: _palette.border, width: 2);
 
   BorderRadius get borderRadius => const .all(.circular(8));
+
+  ProgressIndicatorThemeData get progressIndicatorThemeData => .new(
+    color: _palette.contrastSecondary,
+    refreshBackgroundColor: _palette.background,
+    strokeWidth: 4,
+  );
 }

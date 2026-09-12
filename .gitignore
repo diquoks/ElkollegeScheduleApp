@@ -1,3 +1,6 @@
+pocketbase/
+*.env
+
 # Miscellaneous
 *.class
 *.log

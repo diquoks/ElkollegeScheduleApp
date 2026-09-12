@@ -23,7 +23,11 @@ class _ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: add logic
+    final AsyncValue<List<GroupScheduleEntity>> schedules = ref.watch(
+      schedulesProvider,
+    );
+    // TODO: add substitutions
+
     return Padding(
       padding: const .symmetric(vertical: 8, horizontal: 12),
       child: Column(
@@ -33,7 +37,7 @@ class _ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
             spacing: 8,
             children: <Widget>[
               Expanded(
-                child: CustomDropdownMenu<dynamic>(
+                child: CustomDropdownMenu<GroupScheduleEntity>(
                   controller: _groupController,
                   label: "Группа",
                   entries: .empty(),
@@ -53,91 +57,45 @@ class _ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
             type: .transparency,
             shape: context.styles.roundedRectangleBorder(),
             clipBehavior: .antiAliasWithSaveLayer,
-            child: const Column(
-              children: <Widget>[
-                ScheduleTile(
-                  number: 0,
-                  subject: "Классный час",
-                  lecturer: "Ульянов И.М.",
-                  room: "45",
-                  onPressed: null,
-                ),
-                ScheduleTile(
-                  number: 1,
-                  subject: "Компьютерные сети",
-                  lecturer: "Ульянов И.М.",
-                  room: "45",
-                  onPressed: null,
-                ),
-                Row(
-                  children: <Widget>[
-                    Expanded(
-                      child: ScheduleTile(
-                        number: 2,
-                        subject: "Иностр. яз.",
-                        lecturer: "Самышина Л.А.",
-                        room: "1",
-                        onPressed: null,
-                      ),
-                    ),
-                    Expanded(
-                      child: ScheduleTile(
-                        number: 2,
-                        subject: "Иностр. яз.",
-                        lecturer: "Иваниенко М.С.",
-                        room: "21",
-                        onPressed: null,
-                      ),
-                    ),
-                  ],
-                ),
-                ScheduleTile(
-                  number: 3,
-                  subject: "Безопасность компьютерных сетей",
-                  lecturer: "Хренков К.А.",
-                  room: "45",
-                  onPressed: null,
-                ),
-                Row(
-                  children: <Widget>[
-                    Expanded(child: SizedBox()),
-                    Expanded(
-                      child: ScheduleTile(
-                        number: 4,
-                        subject: "ИТ",
-                        lecturer: "Алферова Ж.О.",
-                        room: "12",
-                        onPressed: null,
-                      ),
-                    ),
-                  ],
-                ),
-                Row(
-                  children: <Widget>[
-                    Expanded(
-                      child: ScheduleTile(
-                        number: 5,
-                        subject: "ДИ",
-                        lecturer: "Алферова Ж.О.",
-                        room: "24",
-                        onPressed: null,
-                      ),
-                    ),
-                    Expanded(child: SizedBox()),
-                  ],
-                ),
-                ScheduleTile(
-                  number: 6,
-                  subject: "Физическая культура",
-                  lecturer: "Блохина Л.А.",
-                  room: "СЗ2",
-                  onPressed: null,
-                ),
-              ],
-            ),
+            child: _buildScheduleChild(context, schedules),
           ),
         ],
       ),
+    );
+  }
+
+  Widget _buildScheduleChild(
+    BuildContext context,
+    AsyncValue<List<GroupScheduleEntity>> schedules,
+  ) {
+    Widget centeredWidget;
+
+    switch (schedules) {
+      case AsyncValue<List<GroupScheduleEntity>>(
+        :final List<GroupScheduleEntity> value,
+      ):
+        if (value.isEmpty) continue emptySchedule;
+
+        throw UnimplementedError(); // TODO
+      emptySchedule:
+      case AsyncValue<List<GroupScheduleEntity>>(hasError: true):
+        centeredWidget = Text(
+          "Пары отсутствуют!", // TODO
+          style: context.styles.openSansRegular24_28.copyWith(
+            color: context.palette.contrast,
+          ),
+          textAlign: .center,
+        );
+        break;
+      default:
+        centeredWidget = const CircularProgressIndicator();
+        break;
+    }
+
+    return Container(
+      padding: const .all(16),
+      constraints: const .new(minHeight: 174),
+      child: Center(child: centeredWidget),
     );
   }
 }
