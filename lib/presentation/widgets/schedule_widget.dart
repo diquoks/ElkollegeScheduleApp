@@ -75,12 +75,7 @@ class ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
                         .read(groupServiceProvider.notifier)
                         .setGroupName(e.groupName);
                   },
-                  items:
-                      (schedules.value?..sort(
-                        (GroupScheduleEntity a, GroupScheduleEntity b) =>
-                            a.groupName.compareTo(b.groupName),
-                      )) ??
-                      .empty(),
+                  items: schedules.value ?? const <GroupScheduleEntity>[],
                   labelBuilder: (GroupScheduleEntity e) => e.groupName,
                 ),
               ),
@@ -154,7 +149,7 @@ class ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
             selectedGroupSchedule.daySchedules
                 .getByWeekday(_selectedDate.value.weekday)
                 ?.periods ??
-            .empty();
+            const <PeriodEntity>[];
 
         if (periods.isEmpty && selectedGroupSubstitutions.isEmpty) {
           centerChild = errorText("Пары отсутствуют!");
@@ -162,12 +157,10 @@ class ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
         }
 
         return Column(
-          children: <Widget>[
-            ..._buildScheduleColumnChildren(
-              periods,
-              selectedGroupSubstitutions,
-            ),
-          ],
+          children: _buildScheduleColumnChildren(
+            periods,
+            selectedGroupSubstitutions,
+          ).toList(),
         );
       emptySchedule:
       case (AsyncError<List<GroupScheduleEntity>>(), _):
@@ -217,9 +210,7 @@ class ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
         hasSubgroup:
         default:
           yield Row(
-            children: <Widget>[
-              ..._buildScheduleRowChildren(periodsWithSameNumber),
-            ],
+            children: _buildScheduleRowChildren(periodsWithSameNumber).toList(),
           );
       }
     }

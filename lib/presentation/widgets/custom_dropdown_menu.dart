@@ -53,25 +53,27 @@ class CustomDropdownMenu<T> extends StatelessWidget {
       selectOnly: true,
       expandedInsets: .zero,
       alignmentOffset: const .new(0, 8),
-      dropdownMenuEntries: <DropdownMenuEntry<T>>[
-        ..._items.map(
-          (T item) => .new(
-            value: item,
-            label: _labelBuilder(item),
-            labelWidget: Text(
-              _labelBuilder(item),
-              style: context.styles.openSansRegular18_24.copyWith(
-                color: context.palette.contrast,
-              ),
-            ),
-            style: MenuItemButton.styleFrom(
-              backgroundColor: Colors.transparent,
-              padding: const .all(24),
-              side: .none,
-            ),
+      dropdownMenuEntries:
+          _items.map((T item) => _buildMenuEntry(context, item)).toList()..sort(
+            (DropdownMenuEntry<T> a, DropdownMenuEntry<T> b) =>
+                a.label.compareTo(b.label),
           ),
-        ),
-      ],
     );
   }
+
+  DropdownMenuEntry<T> _buildMenuEntry(BuildContext context, T item) => .new(
+    value: item,
+    label: _labelBuilder(item),
+    labelWidget: Text(
+      _labelBuilder(item),
+      style: context.styles.openSansRegular18_24.copyWith(
+        color: context.palette.contrast,
+      ),
+    ),
+    style: MenuItemButton.styleFrom(
+      backgroundColor: Colors.transparent,
+      padding: const .all(24),
+      side: .none,
+    ),
+  );
 }
