@@ -1,0 +1,4636 @@
+[
+  {
+    "groupName": "МКИПА 23-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 1,
+            "subject": "Соц. адапт.",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (МКИПА 23-01)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 3,
+            "subject": "Основы автоматизации технологических процессов",
+            "lecturer": "Александровский В.В.",
+            "room": "103М"
+          },
+          {
+            "number": 4,
+            "subject": "Основы автоматизации технологических процессов",
+            "lecturer": "Александровский В.В.",
+            "room": "219М"
+          },
+          {
+            "number": 5,
+            "subject": "Основы автоматизации технологических процессов",
+            "lecturer": "Александровский В.В.",
+            "room": "219М"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 02.02 (СНКИПА 24, МКИПА 23)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 02.02 (СНКИПА 24, МКИПА 23)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 3,
+            "subject": "Электробезопасность",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Захаров Д.Е.",
+            "room": "213"
+          },
+          {
+            "number": 1,
+            "subject": "Соц. адапт.",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (МКИПА 23-01)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 02.02 (СНКИПА 24, МКИПА 23)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 02.02 (СНКИПА 24, МКИПА 23)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 3,
+            "subject": "Электробезопасность",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 02.02 (СНКИПА 24, МКИПА 23)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 5,
+            "subject": "МДК 02.02 (СНКИПА 24, МКИПА 23)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (МКИПА 23-01)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (МКИПА 23-01)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 03.01 (МКИПА 23-01)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "СНКИПА 25-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 1,
+            "subject": "Русс.яз.",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 2,
+            "subject": "Лит-ра",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 3,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 4,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 2,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 3,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 3,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 4,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 4,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 1,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 2,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Лит-ра",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 3,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "спортзал"
+          },
+          {
+            "number": 4,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 2,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 3,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 4,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "СНКИПА 25-02",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 2,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 3,
+            "subject": "Русс.яз.",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 4,
+            "subject": "Лит-ра",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 1,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 2,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 3,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 1,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 2,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 1,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 2,
+            "subject": "Лит-ра",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 3,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 4,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "с.з."
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 3,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 4,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МОСИДР 24-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 1,
+            "subject": "ОСЧ",
+            "lecturer": "Стенина Н.С.",
+            "room": "124"
+          },
+          {
+            "number": 2,
+            "subject": "ОСМ",
+            "lecturer": "Стенина Н.С.",
+            "room": "124"
+          },
+          {
+            "number": 3,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "спортзал"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 01.01 (МОСИДР)",
+            "lecturer": "Мисин А.И.",
+            "room": "127"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 01.01 (МОСИДР)",
+            "lecturer": "Мисин А.И.",
+            "room": "127"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.02 (МОСИДР)",
+            "lecturer": "Мисин А.И.",
+            "room": "124"
+          },
+          {
+            "number": 3,
+            "subject": "Ст. машины и ср-ва мал. механ.",
+            "lecturer": "Мисин А.И.",
+            "room": "102"
+          },
+          {
+            "number": 4,
+            "subject": "БЖ",
+            "lecturer": "Лужбина М.А.",
+            "room": "102"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 02.01 (МОСИДР)",
+            "lecturer": "Мисин А.И.",
+            "room": "124"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 02.01 (МОСИДР)",
+            "lecturer": "Мисин А.И.",
+            "room": "124"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (МОСИДР)",
+            "lecturer": "Мисин А.И.",
+            "room": "124"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (МОСИДР)",
+            "lecturer": "Мисин А.И.",
+            "room": "124"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 03.01 (МОСИДР)",
+            "lecturer": "Мисин А.И.",
+            "room": "124"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 03.01 (МОСИДР)",
+            "lecturer": "Мисин А.И.",
+            "room": "124"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 1,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.02 (МОСИДР)",
+            "lecturer": "Мисин А.И.",
+            "room": "124"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МОСИДР 25-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Мисин А.И.",
+            "room": "102"
+          },
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 2,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 3,
+            "subject": "ВВП",
+            "lecturer": "Мисин А.И.",
+            "room": "127"
+          },
+          {
+            "number": 4,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 2,
+            "subject": "Физика",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 3,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 4,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Мисин А.И.",
+            "room": "102"
+          },
+          {
+            "number": 1,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 2,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 3,
+            "subject": "Физика",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 2,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 3,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 4,
+            "subject": "Инд.проект",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "с.з."
+          },
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 2,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 4,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МР 24-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 1,
+            "subject": "ЦСПД",
+            "lecturer": "Мишина М.Е.",
+            "room": "102"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.01 (МР)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 3,
+            "subject": "ЭиПОПД",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 01.01 (МР)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.01 (МР)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 01.01 (МР)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 01.01 (МР)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 01.01 (МР)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 5,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 3,
+            "subject": "МДК 02.01 (МР)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 02.01 (МР)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 5,
+            "subject": "МДК 02.01 (МР)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 1,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "спортзал"
+          },
+          {
+            "number": 2,
+            "subject": "ЭиПОПД",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 02.01 (МР)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 02.01 (МР)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МР-25.01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 1,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 2,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 3,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 3,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 4,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 5,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 1,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 2,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 3,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 4,
+            "subject": "Информ. (теор.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 2,
+            "subject": "ВВП",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 2,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "спортзал"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 4,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МР-25-.02",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 1,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 2,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 4,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 1,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 2,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 3,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "спортзал"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 1,
+            "subject": "ВВП",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 2,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 4,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 2,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 3,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 4,
+            "subject": "Информ. (теор.)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 2,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 3,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МРОИСЖКХ 24-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          },
+          {
+            "number": 1,
+            "subject": "История России",
+            "lecturer": "Подмарькова Г.Ю.",
+            "room": "202М"
+          },
+          {
+            "number": 2,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "спортзал"
+          },
+          {
+            "number": 3,
+            "subject": "ОБП",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          },
+          {
+            "number": 4,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 01.02 (ЖКХ)",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (ЖКХ)",
+            "lecturer": "Титова Г.Д.",
+            "room": "210"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 01.02 (ЖКХ)",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          },
+          {
+            "number": 4,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 01.03 (ТЭО23)",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.03 (ТЭО23)",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 01.02 (ЖКХ)",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.02 (ЖКХ)",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 01.02 (ЖКХ)",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "БЖ",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (ЖКХ)",
+            "lecturer": "Титова Г.Д.",
+            "room": "210"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 03.01 (ЖКХ)",
+            "lecturer": "Титова Г.Д.",
+            "room": "210"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МРОИСЖКХ 25-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 1,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 2,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 4,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "спортзал"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Русс.яз.",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 2,
+            "subject": "Лит-ра",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 4,
+            "subject": "История",
+            "lecturer": "Подмарькова Г.Ю.",
+            "room": "220М"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 3,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 2,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 3,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 4,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 2,
+            "subject": "История",
+            "lecturer": "Подмарькова Г.Ю.",
+            "room": "202М"
+          },
+          {
+            "number": 3,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 3,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 4,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 4,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МРОИСЖКХ 25-02",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 2,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 3,
+            "subject": "История",
+            "lecturer": "Подмарькова Г.Ю.",
+            "room": "202М"
+          },
+          {
+            "number": 4,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 5,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 3,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 4,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 2,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "спортзал"
+          },
+          {
+            "number": 3,
+            "subject": "Лит-ра",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 4,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Малышева О.М.",
+            "room": "308"
+          },
+          {
+            "number": 3,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 3,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 4,
+            "subject": "ВВП",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          },
+          {
+            "number": 5,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 5,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 2,
+            "subject": "Русс.яз.",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МСППИРС 25-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 3,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 2,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 3,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 4,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          },
+          {
+            "number": 3,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "спортзал"
+          },
+          {
+            "number": 4,
+            "subject": "Физика",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 5,
+            "subject": "Информ. (теор.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 1,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 2,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 3,
+            "subject": "Физика",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 4,
+            "subject": "ВВП",
+            "lecturer": "Стукалов А.А.",
+            "room": "107-108"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 2,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МСППИСР 24-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Стукалов А.А.",
+            "room": "107-108"
+          },
+          {
+            "number": 1,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "спортзал"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.01 (МСППИСР)",
+            "lecturer": "Стукалов А.А.",
+            "room": "124"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 01.01 (МСППИСР)",
+            "lecturer": "Стукалов А.А.",
+            "room": "124"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 01.01 (МСППИСР)",
+            "lecturer": "Стукалов А.А.",
+            "room": "124"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Соц. адапт.",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.01 (МСППИСР)",
+            "lecturer": "Стукалов А.А.",
+            "room": "124"
+          },
+          {
+            "number": 3,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Стукалов А.А.",
+            "room": "107-108"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 02.01 (МСППИСР)",
+            "lecturer": "Стукалов А.А.",
+            "room": "107-108"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 02.01 (МСППИСР)",
+            "lecturer": "Стукалов А.А.",
+            "room": "107-108"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 02.01 (МСППИСР)",
+            "lecturer": "Стукалов А.А.",
+            "room": "107-108"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "ОБКиФГ",
+            "lecturer": "Куприк О.И.",
+            "room": "220М"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 02.01 (МСППИСР)",
+            "lecturer": "Стукалов А.А.",
+            "room": "107-108"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 03.01 (МСППИСР)",
+            "lecturer": "Стукалов А.А.",
+            "room": "107-108"
+          },
+          {
+            "number": 4,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (МСППИСР)",
+            "lecturer": "Стукалов А.А.",
+            "room": "107-108"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (МСППИСР)",
+            "lecturer": "Стукалов А.А.",
+            "room": "107-108"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МШИ 24-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 2,
+            "subject": "Псих. общения",
+            "lecturer": "Боровик М.С.",
+            "room": "102"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 04.01 (МШИ)",
+            "lecturer": "Мишина М.Е.",
+            "room": "102"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 04.01 (МШИ)",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 5,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "307"
+          },
+          {
+            "number": 1,
+            "subject": "Спецрисунок",
+            "lecturer": "Мещерякова А.А.",
+            "room": "221М"
+          },
+          {
+            "number": 2,
+            "subject": "Материаловедение",
+            "lecturer": "Мещерякова А.А.",
+            "room": "221М"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 01.01 (МШИ)",
+            "lecturer": "Мещерякова А.А.",
+            "room": "221М"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "307"
+          },
+          {
+            "number": 1,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "спортзал"
+          },
+          {
+            "number": 2,
+            "subject": "ОХПО",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 3,
+            "subject": "БЖ",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 4,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Основы бережливого производства",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 2,
+            "subject": "ОФГ",
+            "lecturer": "Куприк О.И.",
+            "room": "102"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Соц. адапт.",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 04.01 (МШИ)",
+            "lecturer": "Мишина М.Е.",
+            "room": "102"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "МШИ 25-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Бабкина В.И.",
+            "room": "211"
+          },
+          {
+            "number": 1,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 4,
+            "subject": "Инд.проект",
+            "lecturer": "Бабкина В.И.",
+            "room": "221М"
+          },
+          {
+            "number": 5,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "спортзал"
+          },
+          {
+            "number": 2,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 3,
+            "subject": "История",
+            "lecturer": "Подмарькова Г.Ю.",
+            "room": "220М"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Бабкина В.И.",
+            "room": "202М"
+          },
+          {
+            "number": 1,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 1,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 2,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 3,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 4,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 3,
+            "subject": "ВВП",
+            "lecturer": "Бабкина В.И.",
+            "room": "221М"
+          },
+          {
+            "number": 4,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "История",
+            "lecturer": "Подмарькова Г.Ю.",
+            "room": "220М"
+          },
+          {
+            "number": 2,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 3,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "ПК 24-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Боровик М.С.",
+            "room": "210"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 06.01 (ПКД 22)",
+            "lecturer": "Неучева Т.И.",
+            "room": "206"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 06.01 (ПКД 22)",
+            "lecturer": "Неучева Т.И.",
+            "room": "206"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Боровик М.С.",
+            "room": "412"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 02.01 (ПК 24-01)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 02.02 (ПКД 23)",
+            "lecturer": "Сидорова О.В.",
+            "room": "206"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 02.02 (ПКД 23)",
+            "lecturer": "Сидорова О.В.",
+            "room": "206"
+          },
+          {
+            "number": 4,
+            "subject": "Рис. и лепка",
+            "lecturer": "Неучева Т.И.",
+            "room": "205"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 3,
+            "subject": "МДК 03.01 (ЖКХ)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 4,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 5,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 2,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "спортзал"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 02.02 (ПКД 23)",
+            "lecturer": "Сидорова О.В.",
+            "room": "206"
+          },
+          {
+            "number": 4,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 5,
+            "subject": "МДК 03.01 (ЖКХ)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 4,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          },
+          {
+            "number": 5,
+            "subject": "МДК 02.02 (ПКД 23)",
+            "lecturer": "Сидорова О.В.",
+            "room": "206"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "ПК 25-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Неучева Т.И.",
+            "room": "103М"
+          },
+          {
+            "number": 1,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 2,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 3,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 2,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 3,
+            "subject": "Лит-ра",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 4,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Неучева Т.И.",
+            "room": "210"
+          },
+          {
+            "number": 1,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 2,
+            "subject": "Русс.яз.",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 3,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 3,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 4,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "спортзал"
+          },
+          {
+            "number": 2,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 3,
+            "subject": "Осн. кальк. и учета",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 4,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Захаров Д.Е.",
+            "room": "208"
+          },
+          {
+            "number": 4,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 2,
+            "subject": "Осн. микроб., физ. пит., санит. и гигиены",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 01.01 (ПК 25-01,24-01)",
+            "lecturer": "Сидорова О.В.",
+            "room": "204М"
+          },
+          {
+            "number": 4,
+            "subject": "Математика",
+            "lecturer": "Мельникова М.М.",
+            "room": "413"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "ПКД 22-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 1,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 2,
+            "subject": "Орг. обслуживания",
+            "lecturer": "Сидорова О.В.",
+            "room": "204М"
+          },
+          {
+            "number": 3,
+            "subject": "Орг. обслуживания",
+            "lecturer": "Сидорова О.В.",
+            "room": "204М"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "ЭОП",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 2,
+            "subject": "ЭОП",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 3,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "с.з."
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Федорова И.В.",
+            "room": "412"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 05.02 (ПКД 22)",
+            "lecturer": "Сидорова О.В.",
+            "room": "204М"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 05.02 (ПКД 22)",
+            "lecturer": "Сидорова О.В.",
+            "room": "204М"
+          },
+          {
+            "number": 3,
+            "subject": "ЭОП",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 06.01 (ПКД 22)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 06.01 (ПКД 22)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 3,
+            "subject": "ЭОП",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 4,
+            "subject": "ОЭММ",
+            "lecturer": "Куприк О.И.",
+            "room": "307"
+          },
+          {
+            "number": 5,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 06.01 (ПКД 22)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 05.02 (ПКД 22)",
+            "lecturer": "Сидорова О.В.",
+            "room": "204М"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 06.01 (ПКД 22)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "ПКД 23-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Сидорова О.В.",
+            "room": "204М"
+          },
+          {
+            "number": 1,
+            "subject": "ИТ и ПД (теория)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "ИТ в ПД(практика)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 2,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 3,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 3,
+            "subgroup": 2,
+            "subject": "ИТ в ПД(практика)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 4,
+            "subject": "БЖ",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 02.02 (ПКД 23)",
+            "lecturer": "Сидорова О.В.",
+            "room": "204М"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (ПКД 23)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 04.01 (ПКД 23)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 03.02(ПКД 23)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Сидорова О.В.",
+            "room": "204М"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 02.01 (ПКД 23)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 02.01 (ПКД 23)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 02.02 (ПКД 23)",
+            "lecturer": "Сидорова О.В.",
+            "room": "204М"
+          },
+          {
+            "number": 4,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "с.з."
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 2,
+            "subject": "МДК 02.02 (ПКД 23)",
+            "lecturer": "Сидорова О.В.",
+            "room": "204М"
+          },
+          {
+            "number": 3,
+            "subject": "ОЭММ",
+            "lecturer": "Куприк О.И.",
+            "room": "307"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 04.02 (ПКД 23)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 3,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 04.02 (ПКД 23)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          },
+          {
+            "number": 5,
+            "subject": "МДК 03.02(ПКД 23)",
+            "lecturer": "Симагина Т.В.",
+            "room": "211"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "РЗХ 24-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (РЗХ)",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 2,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 3,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 2,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 3,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 4,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (РЗХ)",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 2,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 3,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 4,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 2,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 3,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 4,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (РЗХ)",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 2,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          },
+          {
+            "number": 3,
+            "subject": "Производственная практика",
+            "lecturer": "Самородова Ю.А.",
+            "room": "129М"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "СНКИПА 24-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 1,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 2,
+            "subject": "История России",
+            "lecturer": "Подмарькова Г.Ю.",
+            "room": "220М"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 02.01 (СНКИПА 24-01)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "102"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 02.01 (СНКИПА 24-01)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "102"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "с.з."
+          },
+          {
+            "number": 2,
+            "subject": "ОБП",
+            "lecturer": "Стенина Н.С.",
+            "room": "123М"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 02.01 (СНКИПА 24-01)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 02.01 (СНКИПА 24-01)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 1,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 2,
+            "subject": "БЖ",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 02.01 (СНКИПА 24-01)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "102"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 02.01 (СНКИПА 24-01)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "102"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (СНКИПА 24-01)",
+            "lecturer": "Александровский В.В.",
+            "room": "102"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (СНКИПА 24-01)",
+            "lecturer": "Александровский В.В.",
+            "room": "102"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (СНКИПА 24-01)",
+            "lecturer": "Александровский В.В.",
+            "room": "102"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (СНКИПА 24-01)",
+            "lecturer": "Александровский В.В.",
+            "room": "102"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "СОБ 25-01к",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          },
+          {
+            "number": 1,
+            "subject": "Ботаника",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "112"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.01 (СОБ 25-01)",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          },
+          {
+            "number": 3,
+            "subject": "Декор. дендр.",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "ВВП",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          },
+          {
+            "number": 2,
+            "subject": "Адапт. ФК",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "спортзал"
+          },
+          {
+            "number": 3,
+            "subject": "Осн. агрономии",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "112"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 02.01 (СОБ 25-01)",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          },
+          {
+            "number": 1,
+            "subject": "Осн. агрономии",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "112"
+          },
+          {
+            "number": 2,
+            "subject": "Механизация",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          },
+          {
+            "number": 3,
+            "subject": "Механизация",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Декор.растен.",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          },
+          {
+            "number": 2,
+            "subject": "БЖ",
+            "lecturer": "Лужбина М.А.",
+            "room": "112"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 02.01 (СОБ 25-01)",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 02.01 (СОБ 25-01)",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 01.01 (СОБ 25-01)",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          },
+          {
+            "number": 2,
+            "subject": "Ботаника",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "112"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 01.01 (СОБ 25-01)",
+            "lecturer": "Соловьева Е.Р.",
+            "room": "112"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "СПИЛС 22-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 1,
+            "subject": "Озеленение насел. мест с осн. градостр.",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 2,
+            "subject": "Озеленение насел. мест с осн. градостр.",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 3,
+            "subject": "Озеленение насел. мест с осн. градостр.",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 4,
+            "subject": "Соц. адапт./ТиК",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "102"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 2,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "с.з."
+          },
+          {
+            "number": 3,
+            "subject": "МДК 03.01 (СПИЛС 22-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 4,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (СПИЛС 22-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (СПИЛС 22-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 3,
+            "subject": "Соц. адапт./ТиК",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "102"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 03.01 (СПИЛС 22-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (СПИЛС 22-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (СПИЛС 22-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 03.01 (СПИЛС 22-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "ОФГ",
+            "lecturer": "Куприк О.И.",
+            "room": "307"
+          },
+          {
+            "number": 2,
+            "subject": "Эконом.орг.",
+            "lecturer": "Куприк О.И.",
+            "room": "307"
+          },
+          {
+            "number": 3,
+            "subject": "Эконом.орг.",
+            "lecturer": "Куприк О.И.",
+            "room": "307"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 03.01 (СПИЛС 22-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "СПИЛС 23-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 2,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 3,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (СПИЛС 23-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 02.01 (СПИЛС 23-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 3,
+            "subject": "МДК 03.01 (СПИЛС 23-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 4,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "спортзал"
+          },
+          {
+            "number": 5,
+            "subject": "Соц. адапт.",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "201"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 3,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 03.01 (СПИЛС 23-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 5,
+            "subject": "МДК 03.01 (СПИЛС 23-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 1,
+            "subject": "МДК 03.01 (СПИЛС 23-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 03.01 (СПИЛС 23-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 03.01 (СПИЛС 23-01)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 4,
+            "subject": "Основы менеджмента",
+            "lecturer": "Куприк О.И.",
+            "room": "307"
+          },
+          {
+            "number": 5,
+            "subject": "Основы менеджмента",
+            "lecturer": "Куприк О.И.",
+            "room": "307"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "СПИЛС 24-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 2,
+            "subject": "Ст. дело и матер.",
+            "lecturer": "Мисин А.И.",
+            "room": "126М"
+          },
+          {
+            "number": 3,
+            "subject": "История России",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 4,
+            "subject": "Декор.растен.",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          },
+          {
+            "number": 5,
+            "subject": "МДК 01.01 (СПИЛС 24)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 4,
+            "subject": "Основы бережливого производства",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 5,
+            "subject": "МДК 01.02 (СПИЛС 24)",
+            "lecturer": "Киселева Л.Б.",
+            "room": "107"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 3,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "с.з."
+          },
+          {
+            "number": 4,
+            "subject": "Ботаника с осн. ФР",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 5,
+            "subject": "Декор. дендр.",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 4,
+            "subject": "Ботаника с осн. ФР",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 5,
+            "subject": "ОФГ",
+            "lecturer": "Куприк О.И.",
+            "room": "307"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 1,
+            "subject": "Почвоведение",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          },
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Литовченко О.В.",
+            "room": "216"
+          },
+          {
+            "number": 2,
+            "subgroup": 2,
+            "subject": "ИТ в ПД(практика)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 3,
+            "subgroup": 1,
+            "subject": "ИТ в ПД(практика)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 3,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 4,
+            "subject": "БЖ",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 5,
+            "subject": "ИСПИ",
+            "lecturer": "Мишина М.Е.",
+            "room": "202М"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "СПИЛС 25-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 1,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "с.з."
+          },
+          {
+            "number": 2,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 3,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 4,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 3,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 4,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 1,
+            "subject": "Русс.яз.",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 2,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 3,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 2,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 3,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 4,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Лит-ра",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 2,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 3,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 4,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 5,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "ТЭОЭЭО 23-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 1,
+            "subject": "Электроснабжение",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 2,
+            "subject": "Электроснабжение",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 3,
+            "subject": "Физ-ра",
+            "lecturer": "Орлова Л.В.",
+            "room": "с.з."
+          },
+          {
+            "number": 4,
+            "subgroup": 2,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Основы философии",
+            "lecturer": "Подмарькова Г.Ю.",
+            "room": "220М"
+          },
+          {
+            "number": 2,
+            "subject": "История",
+            "lecturer": "Подмарькова Г.Ю.",
+            "room": "220М"
+          },
+          {
+            "number": 3,
+            "subject": "Тех. механика",
+            "lecturer": "Титова Г.Д.",
+            "room": "210"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Казанцева Е.С.",
+            "room": "102"
+          },
+          {
+            "number": 1,
+            "subject": "Автоматика",
+            "lecturer": "Ленивкин П.А.",
+            "room": "219М"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.01 (ТЭО 23)",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 3,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 2,
+            "subject": "МДК 01.04 (ТЭО23)",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 3,
+            "subject": "Метрология",
+            "lecturer": "Ленивкин П.А.",
+            "room": "214М"
+          },
+          {
+            "number": 4,
+            "subject": "Электробезопасность",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "МДК 01.02 (ТЭО 23)",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.03 (ТЭО23)",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 3,
+            "subject": "МДК 02.01 (ТЭО23)",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "ЭОЭЭО 24-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "307"
+          },
+          {
+            "number": 1,
+            "subject": "Метрология",
+            "lecturer": "Ленивкин П.А.",
+            "room": "214М"
+          },
+          {
+            "number": 2,
+            "subject": "Програм. логич. реле и микроконтрол.",
+            "lecturer": "Александровский В.В.",
+            "room": "103М"
+          },
+          {
+            "number": 3,
+            "subject": "Тех. механика",
+            "lecturer": "Титова Г.Д.",
+            "room": "210"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Электр. машины и электропривод",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 2,
+            "subject": "МДК 01.01 (ТЭО 23)",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 3,
+            "subject": "Электр. машины и электропривод",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 01.01 (ТЭО 23)",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 5,
+            "subject": "МДК 04.01 (ЭО24)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "214М"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 2,
+            "subgroup": 1,
+            "subject": "ИТ в ПД(практика)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 2,
+            "subgroup": 2,
+            "subject": "ИТ в ПД(практика)",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 3,
+            "subgroup": 1,
+            "subject": "Ин. яз. в ПД",
+            "lecturer": "Петрова О.П.",
+            "room": "111"
+          },
+          {
+            "number": 3,
+            "subgroup": 2,
+            "subject": "ИТ в ПД(практика)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 4,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "спортзал"
+          },
+          {
+            "number": 5,
+            "subject": "Обществознание",
+            "lecturer": "Кузнецова Н.Б.",
+            "room": "301"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 3,
+            "subject": "Програм. логич. реле и микроконтрол.",
+            "lecturer": "Александровский В.В.",
+            "room": "129М"
+          },
+          {
+            "number": 4,
+            "subject": "МДК 01.02 (ТЭО 23)",
+            "lecturer": "Казанцева Е.С.",
+            "room": "412"
+          },
+          {
+            "number": 5,
+            "subject": "МДК 04.01 (ЭО24)",
+            "lecturer": "Ленивкин П.А.",
+            "room": "214М"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "ЭОЭЭО 25-01",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 2,
+            "subject": "Инж. граф.",
+            "lecturer": "Титова Г.Д.",
+            "room": "210"
+          },
+          {
+            "number": 3,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 4,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          },
+          {
+            "number": 5,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 5,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 2,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 3,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 4,
+            "subject": "Лит-ра",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 4,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 5,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "310"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 1,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 1,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 2,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 4,
+            "subject": "Русс.яз.",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 5,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 2,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "с.з."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "groupName": "ЭОЭЭО 25-02",
+    "daySchedules": [
+      {
+        "weekday": 1,
+        "periods": [
+          {
+            "number": 4,
+            "subject": "География",
+            "lecturer": "Павлова И.А.",
+            "room": "401"
+          },
+          {
+            "number": 5,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          }
+        ]
+      },
+      {
+        "weekday": 2,
+        "periods": [
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 4,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "301"
+          }
+        ]
+      },
+      {
+        "weekday": 3,
+        "periods": [
+          {
+            "number": 1,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 2,
+            "subject": "Физика",
+            "lecturer": "Коваленко М.Ю.",
+            "room": "110"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 4,
+            "subject": "Русс.яз.",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 5,
+            "subject": "Биология",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          }
+        ]
+      },
+      {
+        "weekday": 4,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Классный час",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 1,
+            "subject": "Химия",
+            "lecturer": "Лыткина Т.М.",
+            "room": "102"
+          },
+          {
+            "number": 2,
+            "subject": "Физ-ра",
+            "lecturer": "Лукьянчикова Н.Н.",
+            "room": "с.з."
+          },
+          {
+            "number": 3,
+            "subject": "Лит-ра",
+            "lecturer": "Захарова Е.В.",
+            "room": "213"
+          },
+          {
+            "number": 4,
+            "subject": "История",
+            "lecturer": "Белоус Д.Г.",
+            "room": "301"
+          }
+        ]
+      },
+      {
+        "weekday": 5,
+        "periods": [
+          {
+            "number": 0,
+            "subject": "Разговоры о важном",
+            "lecturer": "Шепшелева Л.В.",
+            "room": "410"
+          },
+          {
+            "number": 1,
+            "subgroup": 1,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          },
+          {
+            "number": 1,
+            "subgroup": 2,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 2,
+            "subject": "ОБиЗР",
+            "lecturer": "Лужбина М.А.",
+            "room": "201"
+          },
+          {
+            "number": 3,
+            "subject": "Математика",
+            "lecturer": "Федорова И.В.",
+            "room": "411"
+          },
+          {
+            "number": 4,
+            "subgroup": 1,
+            "subject": "Ин. язык",
+            "lecturer": "Кудрявцева Ж.С.",
+            "room": "309"
+          },
+          {
+            "number": 4,
+            "subgroup": 2,
+            "subject": "Информ. (пр.)",
+            "lecturer": "Волкова В.В.",
+            "room": "305"
+          }
+        ]
+      }
+    ]
+  }
+]

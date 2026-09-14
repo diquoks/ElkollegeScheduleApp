@@ -1,0 +1,1020 @@
+[
+  {
+    "groupName": "СНКИПА 25-01",
+    "period": {
+      "number": 1,
+      "subject": "Лит-ра",
+      "lecturer": "Захарова Е.В.",
+      "room": "213"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "Математика",
+      "lecturer": "Мельникова М.М.",
+      "room": "413"
+    }
+  },
+  {
+    "groupName": "СНКИПА 25-02",
+    "period": {
+      "number": 2,
+      "subject": "Лит-ра",
+      "lecturer": "Захарова Е.В.",
+      "room": "213"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "Физ-ра",
+      "lecturer": "Орлова Л.В.",
+      "room": "спортзал"
+    }
+  },
+  {
+    "groupName": "СНКИПА 25-02",
+    "period": {
+      "number": 4,
+      "subject": "Физ-ра",
+      "lecturer": "Орлова Л.В.",
+      "room": "с.з."
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МОСИДР 24-01",
+    "period": {
+      "number": 1,
+      "subject": "МДК 03.01 (МОСИДР)",
+      "lecturer": "Мисин А.И.",
+      "room": "124"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МОСИДР 24-01",
+    "period": {
+      "number": 2,
+      "subject": "МДК 03.01 (МОСИДР)",
+      "lecturer": "Мисин А.И.",
+      "room": "124"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МОСИДР 24-01",
+    "period": {
+      "number": 3,
+      "subject": "МДК 03.01 (МОСИДР)",
+      "lecturer": "Мисин А.И.",
+      "room": "124"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МОСИДР 24-01",
+    "period": {
+      "number": 4,
+      "subject": "МДК 03.01 (МОСИДР)",
+      "lecturer": "Мисин А.И.",
+      "room": "124"
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МОСИДР 24-01",
+    "period": {
+      "number": 4,
+      "subgroup": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 4,
+      "subgroup": 1,
+      "subject": "Ин. яз. в ПД",
+      "lecturer": "Литовченко О.В.",
+      "room": "216"
+    }
+  },
+  {
+    "groupName": "МОСИДР 24-01",
+    "period": {
+      "number": 5,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 5,
+      "subject": "ОСЧ",
+      "lecturer": "Стенина Н.С.",
+      "room": "124"
+    }
+  },
+  {
+    "groupName": "МОСИДР 25-01",
+    "period": {
+      "number": 1,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "308"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "Русс.яз.",
+      "lecturer": "Миронова Т.М.",
+      "room": "307"
+    }
+  },
+  {
+    "groupName": "МОСИДР 25-01",
+    "period": {
+      "number": 2,
+      "subject": "История",
+      "lecturer": "Белоус Д.Г.",
+      "room": "310"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "История",
+      "lecturer": "Подмарькова Г.Ю.",
+      "room": "310"
+    }
+  },
+  {
+    "groupName": "МОСИДР 25-01",
+    "period": {
+      "number": 3,
+      "subject": "Обществознание",
+      "lecturer": "Кузнецова Н.Б.",
+      "room": "301"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "Лит-ра",
+      "lecturer": "Миронова Т.М.",
+      "room": "307"
+    }
+  },
+  {
+    "groupName": "МР 24-01",
+    "period": {
+      "number": 3,
+      "subject": "МДК 02.01 (МР)",
+      "lecturer": "Мишина М.Е.",
+      "room": "202М"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "ЭиПОПД",
+      "lecturer": "Кузнецова Н.Б.",
+      "room": "301"
+    }
+  },
+  {
+    "groupName": "МР 24-01",
+    "period": {
+      "number": 4,
+      "subject": "МДК 02.01 (МР)",
+      "lecturer": "Мишина М.Е.",
+      "room": "202М"
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "Физ-ра",
+      "lecturer": "Орлова Л.В.",
+      "room": "с.з."
+    }
+  },
+  {
+    "groupName": "МР 24-01",
+    "period": {
+      "number": 5,
+      "subject": "МДК 02.01 (МР)",
+      "lecturer": "Мишина М.Е.",
+      "room": "202М"
+    },
+    "substitution": {
+      "number": 5,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МР-25.01",
+    "period": {
+      "number": 2,
+      "subject": "ВВП",
+      "lecturer": "Мишина М.Е.",
+      "room": "202М"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "Лит-ра",
+      "lecturer": "Миронова Т.М.",
+      "room": "307"
+    }
+  },
+  {
+    "groupName": "МР-25-.02",
+    "period": {
+      "number": 1,
+      "subject": "История",
+      "lecturer": "Белоус Д.Г.",
+      "room": "310"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "История",
+      "lecturer": "Подмарькова Г.Ю.",
+      "room": "310"
+    }
+  },
+  {
+    "groupName": "МР-25-.02",
+    "period": {
+      "number": 4,
+      "subject": "Информ. (теор.)",
+      "lecturer": "Волкова В.В.",
+      "room": "305"
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МРОИСЖКХ 25-01",
+    "period": {
+      "number": 1,
+      "subject": "География",
+      "lecturer": "Павлова И.А.",
+      "room": "401"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МРОИСЖКХ 25-01",
+    "period": {
+      "number": 2,
+      "subject": "Обществознание",
+      "lecturer": "Кузнецова Н.Б.",
+      "room": "301"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МРОИСЖКХ 25-01",
+    "period": {
+      "number": 5,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 5,
+      "subject": "География",
+      "lecturer": "Павлова И.А.",
+      "room": "401"
+    }
+  },
+  {
+    "groupName": "МРОИСЖКХ 25-02",
+    "period": {
+      "number": 1,
+      "subject": "Обществознание",
+      "lecturer": "Кузнецова Н.Б.",
+      "room": "301"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "Физика",
+      "lecturer": "Коваленко М.Ю.",
+      "room": "110"
+    }
+  },
+  {
+    "groupName": "МРОИСЖКХ 25-02",
+    "period": {
+      "number": 2,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "308"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "Обществознание",
+      "lecturer": "Кузнецова Н.Б.",
+      "room": "301"
+    }
+  },
+  {
+    "groupName": "МРОИСЖКХ 25-02",
+    "period": {
+      "number": 3,
+      "subgroup": 2,
+      "subject": "Информ. (пр.)",
+      "lecturer": "Захаров Д.Е.",
+      "room": "208"
+    },
+    "substitution": {
+      "number": 3,
+      "subgroup": 2,
+      "subject": "Ин.яз",
+      "lecturer": "Литовченко О.В.",
+      "room": "208"
+    }
+  },
+  {
+    "groupName": "МРОИСЖКХ 25-02",
+    "period": {
+      "number": 5,
+      "subgroup": 1,
+      "subject": "Информ. (пр.)",
+      "lecturer": "Захаров Д.Е.",
+      "room": "208"
+    },
+    "substitution": {
+      "number": 5,
+      "subgroup": 1,
+      "subject": "Ин.яз.",
+      "lecturer": "Литовченко О.В.",
+      "room": "208"
+    }
+  },
+  {
+    "groupName": "МСППИРС 25-01",
+    "period": {
+      "number": 1,
+      "subgroup": 2,
+      "subject": "Информ. (пр.)",
+      "lecturer": "Захаров Д.Е.",
+      "room": "208"
+    },
+    "substitution": {
+      "number": 1,
+      "subgroup": 2,
+      "subject": "Ин.яз.",
+      "lecturer": "Литовченко О.В.",
+      "room": "208"
+    }
+  },
+  {
+    "groupName": "МСППИРС 25-01",
+    "period": {
+      "number": 2,
+      "subgroup": 1,
+      "subject": "Информ. (пр.)",
+      "lecturer": "Захаров Д.Е.",
+      "room": "208"
+    },
+    "substitution": {
+      "number": 2,
+      "subgroup": 1,
+      "subject": "Ин.яз.",
+      "lecturer": "Литовченко О.В.",
+      "room": "208"
+    }
+  },
+  {
+    "groupName": "МСППИРС 25-01",
+    "period": {
+      "number": 4,
+      "subject": "ВВП",
+      "lecturer": "Стукалов А.А.",
+      "room": "107-108"
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МСППИСР 24-01",
+    "period": {
+      "number": 1,
+      "subject": "ОБКиФГ",
+      "lecturer": "Куприк О.И.",
+      "room": "220М"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "ОБКиФГ",
+      "lecturer": "Куприк О.И.",
+      "room": "210"
+    }
+  },
+  {
+    "groupName": "МСППИСР 24-01",
+    "period": {
+      "number": 2,
+      "subject": "МДК 02.01 (МСППИСР)",
+      "lecturer": "Стукалов А.А.",
+      "room": "107-108"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "ОБКиФГ",
+      "lecturer": "Куприк О.И.",
+      "room": "210"
+    }
+  },
+  {
+    "groupName": "МСППИСР 24-01",
+    "period": {
+      "number": 3,
+      "subject": "МДК 03.01 (МСППИСР)",
+      "lecturer": "Стукалов А.А.",
+      "room": "107-108"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МСППИСР 24-01",
+    "period": {
+      "number": 4,
+      "subgroup": 2,
+      "subject": "Ин. яз. в ПД",
+      "lecturer": "Литовченко О.В.",
+      "room": "216"
+    },
+    "substitution": {
+      "number": 4,
+      "subgroup": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МШИ 24-01",
+    "period": {
+      "number": 1,
+      "subject": "Основы бережливого производства",
+      "lecturer": "Мишина М.Е.",
+      "room": "202М"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МШИ 24-01",
+    "period": {
+      "number": 2,
+      "subject": "ОФГ",
+      "lecturer": "Куприк О.И.",
+      "room": "102"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МШИ 24-01",
+    "period": {
+      "number": 3,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "ОФГ",
+      "lecturer": "Куприк О.И.",
+      "room": "210"
+    }
+  },
+  {
+    "groupName": "МШИ 24-01",
+    "period": {
+      "number": 4,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "ОФГ",
+      "lecturer": "Куприк О.И.",
+      "room": "210"
+    }
+  },
+  {
+    "groupName": "МШИ 25-01",
+    "period": {
+      "number": 1,
+      "subject": "Математика",
+      "lecturer": "Федорова И.В.",
+      "room": "411"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "308"
+    }
+  },
+  {
+    "groupName": "МШИ 25-01",
+    "period": {
+      "number": 2,
+      "subject": "Математика",
+      "lecturer": "Федорова И.В.",
+      "room": "411"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "308"
+    }
+  },
+  {
+    "groupName": "ПК 24-01",
+    "period": {
+      "number": 2,
+      "subject": "Физ-ра",
+      "lecturer": "Орлова Л.В.",
+      "room": "спортзал"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "МДК 02.02 (ПКД 23)",
+      "lecturer": "Сидорова О.В.",
+      "room": "206"
+    }
+  },
+  {
+    "groupName": "ПК 25-01",
+    "period": {
+      "number": 4,
+      "subgroup": 1,
+      "subject": "Информ. (пр.)",
+      "lecturer": "Захаров Д.Е.",
+      "room": "208"
+    },
+    "substitution": {
+      "number": 4,
+      "subgroup": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "ПК 25-01",
+    "period": {
+      "number": 4,
+      "subgroup": 2,
+      "subject": "Ин. язык",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    },
+    "substitution": {
+      "number": 4,
+      "subgroup": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "ПКД 23-01",
+    "period": {
+      "number": 2,
+      "subject": "МДК 02.02 (ПКД 23)",
+      "lecturer": "Сидорова О.В.",
+      "room": "204М"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "МДК 03.01 (ПКД 23)",
+      "lecturer": "Симагина Т.В.",
+      "room": "211"
+    }
+  },
+  {
+    "groupName": "ПКД 23-01",
+    "period": {
+      "number": 3,
+      "subject": "ОЭММ",
+      "lecturer": "Куприк О.И.",
+      "room": "307"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "Физ-ра",
+      "lecturer": "Лукьянчикова Н.Н.",
+      "room": "с.з."
+    }
+  },
+  {
+    "groupName": "ПКД 23-01",
+    "period": {
+      "number": 5,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 5,
+      "subject": "МДК 02.02 (ПКД 23)",
+      "lecturer": "Сидорова О.В.",
+      "room": "204М"
+    }
+  },
+  {
+    "groupName": "СПИЛС 22-01",
+    "period": {
+      "number": 1,
+      "subject": "МДК 03.01 (СПИЛС 22-01)",
+      "lecturer": "Киселева Л.Б.",
+      "room": "107"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "СПИЛС 22-01",
+    "period": {
+      "number": 2,
+      "subject": "МДК 03.01 (СПИЛС 22-01)",
+      "lecturer": "Киселева Л.Б.",
+      "room": "107"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "СПИЛС 22-01",
+    "period": {
+      "number": 2,
+      "subgroup": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 2,
+      "subgroup": 1,
+      "subject": "Ин. язык",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    }
+  },
+  {
+    "groupName": "СПИЛС 22-01",
+    "period": {
+      "number": 3,
+      "subject": "МДК 03.01 (СПИЛС 22-01)",
+      "lecturer": "Киселева Л.Б.",
+      "room": "107"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "СПИЛС 22-01",
+    "period": {
+      "number": 3,
+      "subgroup": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 3,
+      "subgroup": 1,
+      "subject": "Ин. язык",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    }
+  },
+  {
+    "groupName": "СПИЛС 22-01",
+    "period": {
+      "number": 4,
+      "subgroup": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 4,
+      "subgroup": 2,
+      "subject": "Ин. язык",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    }
+  },
+  {
+    "groupName": "СПИЛС 22-01",
+    "period": {
+      "number": 5,
+      "subgroup": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 5,
+      "subgroup": 2,
+      "subject": "Ин. язык",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    }
+  },
+  {
+    "groupName": "СПИЛС 23-01",
+    "period": {
+      "number": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "МДК 03.01 (СПИЛС 23-01)",
+      "lecturer": "Киселева Л.Б.",
+      "room": "э/о"
+    }
+  },
+  {
+    "groupName": "СПИЛС 23-01",
+    "period": {
+      "number": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "МДК 03.01 (СПИЛС 23-01)",
+      "lecturer": "Киселева Л.Б.",
+      "room": "э/о"
+    }
+  },
+  {
+    "groupName": "СПИЛС 23-01",
+    "period": {
+      "number": 2,
+      "subgroup": 1,
+      "subject": "Ин. яз. в ПД",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    },
+    "substitution": {
+      "number": 2,
+      "subgroup": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "СПИЛС 23-01",
+    "period": {
+      "number": 3,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "МДК 03.01 (СПИЛС 23-01)",
+      "lecturer": "Киселева Л.Б.",
+      "room": "э/о"
+    }
+  },
+  {
+    "groupName": "СПИЛС 23-01",
+    "period": {
+      "number": 3,
+      "subgroup": 1,
+      "subject": "Ин. яз. в ПД",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    },
+    "substitution": {
+      "number": 3,
+      "subgroup": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "СПИЛС 23-01",
+    "period": {
+      "number": 4,
+      "subject": "МДК 03.01 (СПИЛС 23-01)",
+      "lecturer": "Киселева Л.Б.",
+      "room": "107"
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "СПИЛС 23-01",
+    "period": {
+      "number": 5,
+      "subject": "МДК 03.01 (СПИЛС 23-01)",
+      "lecturer": "Киселева Л.Б.",
+      "room": "107"
+    },
+    "substitution": {
+      "number": 5,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "СПИЛС 24-01",
+    "period": {
+      "number": 5,
+      "subject": "ОФГ",
+      "lecturer": "Куприк О.И.",
+      "room": "307"
+    },
+    "substitution": {
+      "number": 5,
+      "subject": "ОФГ",
+      "lecturer": "Куприк О.И.",
+      "room": "210"
+    }
+  },
+  {
+    "groupName": "СПИЛС 25-01",
+    "period": {
+      "number": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "Обществознание",
+      "lecturer": "Кузнецова Н.Б.",
+      "room": "301"
+    }
+  },
+  {
+    "groupName": "СПИЛС 25-01",
+    "period": {
+      "number": 3,
+      "subject": "История",
+      "lecturer": "Белоус Д.Г.",
+      "room": "310"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "История",
+      "lecturer": "Подмарькова Г.Ю.",
+      "room": "310"
+    }
+  },
+  {
+    "groupName": "СПИЛС 25-01",
+    "period": {
+      "number": 4,
+      "subject": "Математика",
+      "lecturer": "Федорова И.В.",
+      "room": "411"
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "308"
+    }
+  },
+  {
+    "groupName": "ЭОЭЭО 25-01",
+    "period": {
+      "number": 3,
+      "subject": "Математика",
+      "lecturer": "Федорова И.В.",
+      "room": "411"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "308"
+    }
+  },
+  {
+    "groupName": "ЭОЭЭО 25-01",
+    "period": {
+      "number": 4,
+      "subject": "Русс.яз.",
+      "lecturer": "Захарова Е.В.",
+      "room": "213"
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "Химия",
+      "lecturer": "Лыткина Т.М.",
+      "room": "102"
+    }
+  },
+  {
+    "groupName": "ЭОЭЭО 25-02",
+    "period": {
+      "number": 3,
+      "subject": "Лит-ра",
+      "lecturer": "Захарова Е.В.",
+      "room": "213"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "Биология",
+      "lecturer": "Шепшелева Л.В.",
+      "room": "410"
+    }
+  },
+  {
+    "groupName": "ЭОЭЭО 25-02",
+    "period": {
+      "number": 4,
+      "subject": "История",
+      "lecturer": "Белоус Д.Г.",
+      "room": "301"
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "История",
+      "lecturer": "Подмарькова Г.Ю.",
+      "room": "301"
+    }
+  }
+]

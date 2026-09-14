@@ -1,5 +1,5 @@
 import "package:elkollege_schedule_app/elkollege_schedule_app.dart";
-import "package:flutter/material.dart";
+import "package:material_ui/material_ui.dart";
 
 class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   const new({super.key, required this._title, required this._actions});

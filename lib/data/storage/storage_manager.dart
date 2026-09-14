@@ -6,17 +6,21 @@ final Provider<StorageManager> storageManagerProvider = .new(
   (Ref ref) => .new(sharedPreferences: ref.watch(sharedPreferencesProvider)),
 );
 
-class StorageManager {
-  const new({required this._sharedPreferences});
-
-  final SharedPreferencesWithCache _sharedPreferences;
-
+class const StorageManager({
+  required final SharedPreferencesWithCache _sharedPreferences,
+}) {
   static const String _keyThemeMode = "themeMode";
+  static const String _keyGroupName = "groupName";
 
-  static Set<String> get keys => <String>{_keyThemeMode};
+  static Set<String> get keys => <String>{_keyThemeMode, _keyGroupName};
 
   int? get themeMode => _sharedPreferences.getInt(_keyThemeMode);
 
   Future<void> setThemeMode(int value) =>
       _sharedPreferences.setInt(_keyThemeMode, value);
+
+  String? get groupName => _sharedPreferences.getString(_keyGroupName);
+
+  Future<void> setGroupName(String value) =>
+      _sharedPreferences.setString(_keyGroupName, value);
 }

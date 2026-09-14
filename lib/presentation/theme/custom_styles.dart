@@ -1,11 +1,7 @@
 import "package:elkollege_schedule_app/elkollege_schedule_app.dart";
-import "package:flutter/material.dart";
+import "package:material_ui/material_ui.dart";
 
-class CustomStyles {
-  const new({required this._palette});
-
-  final CustomPalette _palette;
-
+class const CustomStyles({required final CustomPalette _palette}) {
   static const String _openSansFamily = "OpenSans";
 
   TextStyle get openSansRegular24_28 => const .new(
@@ -32,27 +28,49 @@ class CustomStyles {
     letterSpacing: 0,
   );
 
+  WidgetStateProperty<Color> get _datePickerThemeForegroundColor =>
+      .resolveWith((Set<WidgetState> states) {
+        if (states.contains(WidgetState.selected)) {
+          return _palette.background;
+        }
+
+        if (states.contains(WidgetState.disabled)) {
+          return _palette.border;
+        }
+
+        return _palette.contrastSecondary;
+      });
+
+  WidgetStateProperty<Color> get _datePickerThemeBackgroundColor =>
+      .resolveWith((Set<WidgetState> states) {
+        if (states.contains(WidgetState.selected)) {
+          return _palette.contrastSecondary;
+        }
+
+        return Colors.transparent;
+      });
+
   ThemeData themeFromBrightness(Brightness brightness) => .new(
-    brightness: brightness,
     extensions: <ThemeExtension<dynamic>>[_palette],
-    inputDecorationTheme: InputDecorationThemeData(
-      labelStyle: openSansRegular18_24.copyWith(
-        color: _palette.contrastSecondary,
-      ),
-      contentPadding: const .only(left: 16, top: 4, bottom: 4, right: 4),
-      focusedBorder: outlineInputBorder(color: _palette.contrastSecondary),
-      disabledBorder: outlineInputBorder(),
-      enabledBorder: outlineInputBorder(),
+    brightness: brightness,
+    scaffoldBackgroundColor: _palette.background,
+    fontFamily: _openSansFamily,
+    datePickerTheme: .new(
+      backgroundColor: _palette.background,
+      shape: shapeBorder(borderColor: _palette.border),
+      dayForegroundColor: _datePickerThemeForegroundColor,
+      dayBackgroundColor: _datePickerThemeBackgroundColor,
+      todayForegroundColor: _datePickerThemeForegroundColor,
+      todayBackgroundColor: _datePickerThemeBackgroundColor,
+      yearForegroundColor: _datePickerThemeForegroundColor,
+      yearBackgroundColor: _datePickerThemeBackgroundColor,
+      todayBorder: borderSide(color: _palette.border),
+      dividerColor: _palette.border,
     ),
-    dropdownMenuTheme: .new(
-      menuStyle: .new(
-        backgroundColor: .all(_palette.background),
-        elevation: .all(0),
-        padding: .all(.zero),
-        maximumSize: .all(.infinite),
-        shape: .all(roundedRectangleBorder()),
-        visualDensity: .compact,
-      ),
+    progressIndicatorTheme: .new(
+      color: _palette.contrastSecondary,
+      refreshBackgroundColor: _palette.background,
+      strokeWidth: 4,
     ),
     textSelectionTheme: .new(
       cursorColor: _palette.contrast,
@@ -61,25 +79,51 @@ class CustomStyles {
     ),
   );
 
-  OutlineInputBorder outlineInputBorder({Color? color, double? strokeAlign}) =>
-      .new(
-        borderSide: borderSide.copyWith(color: color, strokeAlign: strokeAlign),
-        borderRadius: borderRadius,
-      );
-
-  RoundedRectangleBorder roundedRectangleBorder({
-    Color? color,
-    double? strokeAlign,
+  InputDecoration inputDecoration({
+    required String labelText,
+    Widget? suffixIcon,
   }) => .new(
-    side: borderSide.copyWith(color: color, strokeAlign: strokeAlign),
+    label: Text(
+      labelText,
+      style: openSansRegular18_24.copyWith(color: _palette.contrastSecondary),
+      overflow: .ellipsis,
+      maxLines: 1,
+    ),
+    contentPadding: const .only(left: 16, top: 4, bottom: 4, right: 4),
+    suffixIcon: suffixIcon,
+    filled: true,
+    fillColor: _palette.background,
+    focusedBorder: inputBorder(borderColor: _palette.contrastSecondary),
+    disabledBorder: inputBorder(borderColor: _palette.border),
+    enabledBorder: inputBorder(borderColor: _palette.border),
+  );
+
+  OutlineInputBorder inputBorder({
+    required Color borderColor,
+    double strokeAlign = BorderSide.strokeAlignInside,
+  }) => .new(
+    borderSide: borderSide(color: borderColor, strokeAlign: strokeAlign),
     borderRadius: borderRadius,
   );
 
-  Border border({Color? color, double? strokeAlign}) => .fromBorderSide(
-    borderSide.copyWith(color: color, strokeAlign: strokeAlign),
+  RoundedRectangleBorder shapeBorder({
+    required Color borderColor,
+    double strokeAlign = BorderSide.strokeAlignInside,
+  }) => .new(
+    side: borderSide(color: borderColor, strokeAlign: strokeAlign),
+    borderRadius: borderRadius,
   );
 
-  BorderSide get borderSide => .new(color: _palette.border, width: 2);
+  Border boxBorder({
+    required Color borderColor,
+    double strokeAlign = BorderSide.strokeAlignInside,
+  }) =>
+      .fromBorderSide(borderSide(color: borderColor, strokeAlign: strokeAlign));
+
+  BorderSide borderSide({
+    required Color color,
+    double strokeAlign = BorderSide.strokeAlignInside,
+  }) => .new(color: color, width: 2, strokeAlign: strokeAlign);
 
   BorderRadius get borderRadius => const .all(.circular(8));
 }

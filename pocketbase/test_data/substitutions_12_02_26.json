@@ -1,0 +1,207 @@
+[
+  {
+    "groupName": "МОСИДР 25-01",
+    "period": {
+      "number": 1,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "308"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МОСИДР 25-01",
+    "period": {
+      "number": 5,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 5,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "308"
+    }
+  },
+  {
+    "groupName": "МР-25.01",
+    "period": {
+      "number": 4,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "Математика",
+      "lecturer": "Мельникова М.М.",
+      "room": "413"
+    }
+  },
+  {
+    "groupName": "МШИ 25-01",
+    "period": {
+      "number": 1,
+      "subject": "Математика",
+      "lecturer": "Федорова И.В.",
+      "room": "411"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "308"
+    }
+  },
+  {
+    "groupName": "МШИ 25-01",
+    "period": {
+      "number": 2,
+      "subject": "Математика",
+      "lecturer": "Федорова И.В.",
+      "room": "411"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "Инд.проект",
+      "lecturer": "Бабкина В.И.",
+      "room": "221М"
+    }
+  },
+  {
+    "groupName": "ПК 25-01",
+    "period": {
+      "number": 4,
+      "subgroup": 2,
+      "subject": "Ин. язык",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    },
+    "substitution": {
+      "number": 4,
+      "subgroup": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "СПИЛС 23-01",
+    "period": {
+      "number": 2,
+      "subgroup": 1,
+      "subject": "Ин. яз. в ПД",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    },
+    "substitution": {
+      "number": 2,
+      "subgroup": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "СПИЛС 23-01",
+    "period": {
+      "number": 3,
+      "subgroup": 1,
+      "subject": "Ин. яз. в ПД",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    },
+    "substitution": {
+      "number": 3,
+      "subgroup": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "СПИЛС 25-01",
+    "period": {
+      "number": 4,
+      "subject": "Математика",
+      "lecturer": "Федорова И.В.",
+      "room": "411"
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "411"
+    }
+  },
+  {
+    "groupName": "ЭОЭЭО 25-01",
+    "period": {
+      "number": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "Информ. (теор.)",
+      "lecturer": "Волкова В.В.",
+      "room": "305"
+    }
+  },
+  {
+    "groupName": "ЭОЭЭО 25-01",
+    "period": {
+      "number": 1,
+      "subgroup": 1,
+      "subject": "Ин. язык",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    },
+    "substitution": {
+      "number": 1,
+      "subgroup": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "ЭОЭЭО 25-01",
+    "period": {
+      "number": 1,
+      "subgroup": 2,
+      "subject": "Информ. (пр.)",
+      "lecturer": "Волкова В.В.",
+      "room": "305"
+    },
+    "substitution": {
+      "number": 1,
+      "subgroup": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "ЭОЭЭО 25-01",
+    "period": {
+      "number": 3,
+      "subject": "Математика",
+      "lecturer": "Федорова И.В.",
+      "room": "411"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "308"
+    }
+  }
+]

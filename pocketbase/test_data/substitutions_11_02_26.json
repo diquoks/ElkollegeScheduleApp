@@ -1,0 +1,278 @@
+[
+  {
+    "groupName": "СНКИПА 25-02",
+    "period": {
+      "number": 3,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "308"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "МР-25-.02",
+    "period": {
+      "number": 1,
+      "subject": "ВВП",
+      "lecturer": "Мишина М.Е.",
+      "room": "202М"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "Лит-ра",
+      "lecturer": "Миронова Т.М.",
+      "room": "307"
+    }
+  },
+  {
+    "groupName": "МСППИРС 25-01",
+    "period": {
+      "number": 2,
+      "subject": "Математика",
+      "lecturer": "Мельникова М.М.",
+      "room": "413"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "Лит-ра",
+      "lecturer": "Миронова Т.М.",
+      "room": "307"
+    }
+  },
+  {
+    "groupName": "МСППИРС 25-01",
+    "period": {
+      "number": 5,
+      "subject": "Информ. (теор.)",
+      "lecturer": "Захаров Д.Е.",
+      "room": "208"
+    },
+    "substitution": {
+      "number": 5,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "ПК 25-01",
+    "period": {
+      "number": 3,
+      "subgroup": 1,
+      "subject": "Ин. язык",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    },
+    "substitution": {
+      "number": 3,
+      "subgroup": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "ПК 25-01",
+    "period": {
+      "number": 4,
+      "subgroup": 1,
+      "subject": "Ин. язык",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    },
+    "substitution": {
+      "number": 4,
+      "subgroup": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "ПКД 22-01",
+    "period": {
+      "number": 0,
+      "subject": "Классный час",
+      "lecturer": "Федорова И.В.",
+      "room": "412"
+    },
+    "substitution": {
+      "number": 0,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "ПКД 22-01",
+    "period": {
+      "number": 1,
+      "subject": "МДК 05.02 (ПКД 22)",
+      "lecturer": "Сидорова О.В.",
+      "room": "204М"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "ПКД 22-01",
+    "period": {
+      "number": 2,
+      "subject": "МДК 05.02 (ПКД 22)",
+      "lecturer": "Сидорова О.В.",
+      "room": "204М"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "ПКД 22-01",
+    "period": {
+      "number": 4,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 4,
+      "subject": "МДК 06.01 (ПКД 22)",
+      "lecturer": "Симагина Т.В.",
+      "room": "211"
+    }
+  },
+  {
+    "groupName": "ПКД 22-01",
+    "period": {
+      "number": 5,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    },
+    "substitution": {
+      "number": 5,
+      "subject": "ЭОП",
+      "lecturer": "Шепшелева Л.В.",
+      "room": "410"
+    }
+  },
+  {
+    "groupName": "СОБ 25-01к",
+    "period": {
+      "number": 0,
+      "subject": "Классный час",
+      "lecturer": "Соловьева Е.Р.",
+      "room": "112"
+    },
+    "substitution": {
+      "number": 0,
+      "subject": "Классный час",
+      "lecturer": "Самородова Ю.А.",
+      "room": "112"
+    }
+  },
+  {
+    "groupName": "СОБ 25-01к",
+    "period": {
+      "number": 2,
+      "subject": "Механизация",
+      "lecturer": "Соловьева Е.Р.",
+      "room": "112"
+    },
+    "substitution": {
+      "number": 2,
+      "subject": "Механизация",
+      "lecturer": "Самородова Ю.А.",
+      "room": "112"
+    }
+  },
+  {
+    "groupName": "СОБ 25-01к",
+    "period": {
+      "number": 3,
+      "subject": "Механизация",
+      "lecturer": "Соловьева Е.Р.",
+      "room": "112"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "Механизация",
+      "lecturer": "Самородова Ю.А.",
+      "room": "112"
+    }
+  },
+  {
+    "groupName": "СПИЛС 22-01",
+    "period": {
+      "number": 0,
+      "subject": "Классный час",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    },
+    "substitution": {
+      "number": 0,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "СПИЛС 25-01",
+    "period": {
+      "number": 2,
+      "subgroup": 2,
+      "subject": "Ин. язык",
+      "lecturer": "Кудрявцева Ж.С.",
+      "room": "309"
+    },
+    "substitution": {
+      "number": 2,
+      "subgroup": 2,
+      "subject": "",
+      "lecturer": "",
+      "room": ""
+    }
+  },
+  {
+    "groupName": "ЭОЭЭО 25-02",
+    "period": {
+      "number": 1,
+      "subject": "Математика",
+      "lecturer": "Федорова И.В.",
+      "room": "411"
+    },
+    "substitution": {
+      "number": 1,
+      "subject": "Информ. (теор.)",
+      "lecturer": "Волкова В.В.",
+      "room": "305"
+    }
+  },
+  {
+    "groupName": "ЭОЭЭО 25-02",
+    "period": {
+      "number": 3,
+      "subject": "Математика",
+      "lecturer": "Федорова И.В.",
+      "room": "411"
+    },
+    "substitution": {
+      "number": 3,
+      "subject": "Математика",
+      "lecturer": "Малышева О.М.",
+      "room": "411"
+    }
+  }
+]

@@ -1,14 +1,12 @@
 import "package:elkollege_schedule_app/elkollege_schedule_app.dart";
-import "package:flutter/material.dart";
+import "package:material_ui/material_ui.dart";
 
-class CustomPalette extends ThemeExtension<CustomPalette> {
-  const new _({
-    required this.background,
-    required this.border,
-    required this.contrast,
-    required this.contrastSecondary,
-  });
-
+class const CustomPalette._({
+  required final Color background,
+  required final Color border,
+  required final Color contrast,
+  required final Color contrastSecondary,
+}) extends ThemeExtension<CustomPalette> {
   const new _light()
     : this._(
         background: const .new(0xFFEEEEEE),
@@ -29,11 +27,6 @@ class CustomPalette extends ThemeExtension<CustomPalette> {
     .light => const ._light(),
     .dark => const ._dark(),
   };
-
-  final Color background;
-  final Color border;
-  final Color contrast;
-  final Color contrastSecondary;
 
   @override
   CustomPalette copyWith() => throw UnimplementedError();

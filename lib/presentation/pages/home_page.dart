@@ -1,14 +1,20 @@
 import "package:elkollege_schedule_app/elkollege_schedule_app.dart";
-import "package:flutter/material.dart";
-import "package:flutter_riverpod/flutter_riverpod.dart";
+import "package:material_ui/material_ui.dart";
 
-class HomePage extends ConsumerWidget {
+class HomePage extends StatefulWidget {
   const new({super.key});
 
   static String get path => "/";
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
+  State<HomePage> createState() => _HomePageState();
+}
+
+class _HomePageState extends State<HomePage> {
+  final GlobalKey<ScheduleWidgetState> _scheduleWidgetKey = .new();
+
+  @override
+  Widget build(BuildContext context) {
     return Scaffold(
       appBar: const CustomAppBar(
         title: "Расписание ЭК",
@@ -20,8 +26,14 @@ class HomePage extends ConsumerWidget {
           ),
         ],
       ),
-      backgroundColor: context.palette.background,
-      body: const SingleChildScrollView(child: ScheduleWidget()),
+      body: CustomRefreshIndicator(
+        onRefresh: () async =>
+            await _scheduleWidgetKey.currentState?.refreshProvidersFuture,
+        child: ListView(
+          physics: const AlwaysScrollableScrollPhysics(),
+          children: <Widget>[ScheduleWidget(key: _scheduleWidgetKey)],
+        ),
+      ),
     );
   }
 }
