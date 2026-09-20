@@ -29,13 +29,15 @@ class CustomDropdownMenu<T> extends StatelessWidget {
       decorationBuilder: (_, MenuController? controller) =>
           context.styles.inputDecoration(
             labelText: _label,
-            suffixIcon: CustomTextFieldIconButton(
-              icon: controller?.isOpen ?? false
-                  ? Icons.arrow_drop_up_rounded
-                  : Icons.arrow_drop_down_rounded,
-              forceCursor: true,
-              onPressed: null,
-            ),
+            suffixIcon: controller?.isOpen ?? false
+                ? CustomTextFieldIconButton(
+                    icon: Icons.arrow_drop_up_rounded,
+                    onPressed: controller?.close,
+                  )
+                : CustomTextFieldIconButton(
+                    icon: Icons.arrow_drop_down_rounded,
+                    onPressed: controller?.open,
+                  ),
           ),
       menuStyle: .new(
         backgroundColor: .all(context.palette.background),
@@ -50,14 +52,11 @@ class CustomDropdownMenu<T> extends StatelessWidget {
       initialSelection: _initialSelection,
       onSelected: _onSelected,
       requestFocusOnTap: true,
-      selectOnly: true,
       expandedInsets: .zero,
       alignmentOffset: const .new(0, 8),
-      dropdownMenuEntries:
-          _items.map((T item) => _buildMenuEntry(context, item)).toList()..sort(
-            (DropdownMenuEntry<T> a, DropdownMenuEntry<T> b) =>
-                a.label.compareTo(b.label),
-          ),
+      dropdownMenuEntries: _items
+          .map((T item) => _buildMenuEntry(context, item))
+          .toList(),
     );
   }
 
@@ -70,10 +69,6 @@ class CustomDropdownMenu<T> extends StatelessWidget {
         color: context.palette.contrast,
       ),
     ),
-    style: MenuItemButton.styleFrom(
-      backgroundColor: Colors.transparent,
-      padding: const .all(24),
-      side: .none,
-    ),
+    style: MenuItemButton.styleFrom(padding: const .all(24), side: .none),
   );
 }

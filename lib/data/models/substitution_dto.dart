@@ -6,8 +6,8 @@ part "substitution_dto.g.dart";
 @JsonSerializable(explicitToJson: true)
 class const SubstitutionDto({
   required final String groupName,
-  required final PeriodDto period,
-  required final PeriodDto substitution,
+  required final PeriodDto? period,
+  required final PeriodDto? substitution,
 }) extends Dto {
   factory fromJson(Map<String, dynamic> json) =>
       _$SubstitutionDtoFromJson(json);
@@ -18,7 +18,7 @@ class const SubstitutionDto({
   @override
   SubstitutionEntity toEntity() => .new(
     groupName: groupName,
-    period: period.toEntity(),
-    substitution: substitution.toEntity(),
+    period: period?.toEntity(),
+    substitution: substitution?.toEntity(),
   );
 }

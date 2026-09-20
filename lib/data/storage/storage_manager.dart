@@ -12,7 +12,7 @@ class const StorageManager({
   static const String _keyThemeMode = "themeMode";
   static const String _keyGroupName = "groupName";
 
-  static Set<String> get keys => <String>{_keyThemeMode, _keyGroupName};
+  static const Set<String> keys = <String>{_keyThemeMode, _keyGroupName};
 
   int? get themeMode => _sharedPreferences.getInt(_keyThemeMode);
 

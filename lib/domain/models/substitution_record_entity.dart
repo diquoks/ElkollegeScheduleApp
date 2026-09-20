@@ -18,3 +18,8 @@ class const SubstitutionRecordEntity({
     updated: updated,
   );
 }
+
+extension ListSubstitutionRecordEntityUtilsX on List<SubstitutionRecordEntity> {
+  List<SubstitutionEntity> get substitutions =>
+      expand((SubstitutionRecordEntity e) => e.json).toList();
+}

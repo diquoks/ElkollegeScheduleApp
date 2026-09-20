@@ -14,7 +14,7 @@ class Application extends ConsumerWidget {
       title: "Расписание ЭК",
       theme: CustomPalette.themeFromBrightness(.light),
       darkTheme: CustomPalette.themeFromBrightness(.dark),
-      themeMode: ref.watch(themeServiceProvider),
+      themeMode: ref.watch(themeModeProvider),
       localizationsDelegates: GlobalMaterialLocalizations.delegates,
       supportedLocales: const <Locale>[.new("ru", "RU")],
       builder: (BuildContext context, Widget? child) {

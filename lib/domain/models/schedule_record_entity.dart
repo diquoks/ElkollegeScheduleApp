@@ -16,3 +16,8 @@ class const ScheduleRecordEntity({
     updated: updated,
   );
 }
+
+extension ListScheduleRecordEntityUtilsX on List<ScheduleRecordEntity> {
+  List<GroupScheduleEntity> get groupSchedules =>
+      expand((ScheduleRecordEntity e) => e.json).toList();
+}

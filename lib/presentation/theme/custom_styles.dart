@@ -66,6 +66,11 @@ class const CustomStyles({required final CustomPalette _palette}) {
       yearBackgroundColor: _datePickerThemeBackgroundColor,
       todayBorder: borderSide(color: _palette.border),
       dividerColor: _palette.border,
+      // TODO: use custom TextStyles
+    ),
+    dialogTheme: .new(
+      backgroundColor: _palette.background,
+      shape: shapeBorder(borderColor: _palette.border),
     ),
     progressIndicatorTheme: .new(
       color: _palette.contrastSecondary,
@@ -89,7 +94,8 @@ class const CustomStyles({required final CustomPalette _palette}) {
       overflow: .ellipsis,
       maxLines: 1,
     ),
-    contentPadding: const .only(left: 16, top: 4, bottom: 4, right: 4),
+    isDense: true,
+    contentPadding: const .symmetric(vertical: 20, horizontal: 16),
     suffixIcon: suffixIcon,
     filled: true,
     fillColor: _palette.background,

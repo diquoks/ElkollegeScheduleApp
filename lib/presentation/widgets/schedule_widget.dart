@@ -16,7 +16,7 @@ class ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
   final TextEditingController _groupController = .new();
   final TextEditingController _dateController = .new();
 
-  final ValueNotifier<DateTime> _selectedDate = .new(.now().asCropped());
+  final ValueNotifier<DateTime> _selectedDate = .new(.now().crop());
 
   @override
   void initState() {
@@ -41,72 +41,72 @@ class ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
 
   @override
   Widget build(BuildContext context) {
-    final String? selectedGroup = ref.watch(groupServiceProvider);
+    final String? selectedGroup = ref.watch(groupNameProvider);
     _groupController.text = selectedGroup ?? "";
 
-    final AsyncValue<List<GroupScheduleEntity>> schedules = ref.watch(
-      schedulesProvider,
+    final AsyncValue<List<ScheduleRecordEntity>> scheduleRecords = ref.watch(
+      scheduleRecordsProvider,
     );
-    final AsyncValue<List<SubstitutionEntity>> substitutions = ref.watch(
-      substitutionsProvider(_selectedDate.value),
-    );
+    final AsyncValue<List<SubstitutionRecordEntity>> substitutionRecords = ref
+        .watch(substitutionRecordsProvider(_selectedDate.value));
 
-    return Padding(
-      padding: const .symmetric(vertical: 8, horizontal: 12),
-      child: Column(
-        spacing: 8,
-        children: <Widget>[
-          Row(
-            spacing: 8,
-            children: <Widget>[
-              Expanded(
-                child: CustomDropdownMenu<GroupScheduleEntity>(
-                  controller: _groupController,
-                  label: "Группа",
-                  initialSelection: schedules.value?.getByGroupName(
-                    selectedGroup,
-                  ),
-                  onSelected: (GroupScheduleEntity? e) async {
-                    if (e == null) {
-                      return;
-                    }
+    return Column(
+      spacing: 8,
+      children: <Widget>[
+        Row(
+          spacing: 8,
+          children: <Widget>[
+            Expanded(
+              child: CustomDropdownMenu<GroupScheduleEntity>(
+                controller: _groupController,
+                label: "Группа",
+                initialSelection: scheduleRecords.value?.groupSchedules
+                    .getByGroupName(selectedGroup),
+                onSelected: (GroupScheduleEntity? e) async {
+                  if (e == null) {
+                    return;
+                  }
 
-                    await ref
-                        .read(groupServiceProvider.notifier)
-                        .setGroupName(e.groupName);
-                  },
-                  items: schedules.value ?? const <GroupScheduleEntity>[],
-                  labelBuilder: (GroupScheduleEntity e) => e.groupName,
-                ),
+                  await ref
+                      .read(groupNameProvider.notifier)
+                      .setGroupName(e.groupName);
+                },
+                items:
+                    scheduleRecords.value?.groupSchedules ??
+                    const <GroupScheduleEntity>[],
+                labelBuilder: (GroupScheduleEntity e) => e.groupName,
               ),
-              Expanded(
-                child: CustomTextField(
-                  controller: _dateController,
-                  label: "Дата",
-                  icon: Icons.date_range_rounded,
-                  readOnly: true,
-                  onPressed: _showDatePicker,
-                ),
-              ),
-            ],
-          ),
-          Material(
-            type: .transparency,
-            shape: context.styles.shapeBorder(
-              borderColor: context.palette.border,
             ),
-            clipBehavior: .antiAlias,
-            child: _buildScheduleChild(context, schedules, substitutions),
+            Expanded(
+              child: CustomTextField.display(
+                controller: _dateController,
+                label: "Дата",
+                icon: Icons.date_range_rounded,
+                onPressed: _showDatePicker,
+              ),
+            ),
+          ],
+        ),
+        Material(
+          type: .transparency,
+          shape: context.styles.shapeBorder(
+            borderColor: context.palette.border,
           ),
-        ],
-      ),
+          clipBehavior: .antiAlias,
+          child: _buildScheduleChild(
+            context,
+            scheduleRecords,
+            substitutionRecords,
+          ),
+        ),
+      ],
     );
   }
 
   Widget _buildScheduleChild(
     BuildContext context,
-    AsyncValue<List<GroupScheduleEntity>> schedules,
-    AsyncValue<List<SubstitutionEntity>> substitutions,
+    AsyncValue<List<ScheduleRecordEntity>> scheduleRecords,
+    AsyncValue<List<SubstitutionRecordEntity>> substitutionRecords,
   ) {
     Text errorText(String data) => Text(
       data,
@@ -116,65 +116,128 @@ class ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
       textAlign: .center,
     );
 
-    Widget centerChild;
+    bool wrapWithContainer = true;
+    Widget mainChild;
+    Widget? infoChild;
 
-    switch ((schedules, substitutions)) {
+    switch ((scheduleRecords, substitutionRecords)) {
       case (
-        AsyncValue<List<GroupScheduleEntity>>(
-          value: final List<GroupScheduleEntity> schedulesValue,
+        AsyncValue<List<ScheduleRecordEntity>>(
+          value: final List<ScheduleRecordEntity> scheduleRecordsValue,
           isReloading: false,
         ),
-        AsyncValue<List<SubstitutionEntity>>(
-          value: final List<SubstitutionEntity> substitutionsValue,
+        AsyncValue<List<SubstitutionRecordEntity>>(
+          value: final List<SubstitutionRecordEntity> substitutionRecordsValue,
           isReloading: false,
         ),
       ):
-        if (schedulesValue.isEmpty) {
+        if (scheduleRecordsValue.isEmpty) {
           continue emptySchedule;
         }
 
-        final String? selectedGroup = ref.watch(groupServiceProvider);
-        final GroupScheduleEntity? selectedGroupSchedule = schedulesValue
+        final String? selectedGroup = ref.watch(groupNameProvider);
+        final GroupScheduleEntity? selectedGroupSchedule = scheduleRecordsValue
+            .groupSchedules
             .getByGroupName(selectedGroup);
-        final List<SubstitutionEntity> selectedGroupSubstitutions =
-            substitutionsValue.getWithSameGroupName(selectedGroup);
+        final List<SubstitutionEntity> selectedSubstitutions =
+            substitutionRecordsValue.substitutions.getWithSameGroupName(
+              selectedGroup,
+            );
 
         if (selectedGroup == null || selectedGroupSchedule == null) {
           _groupController.clear();
-          centerChild = errorText("Выберите группу для\nпросмотра расписания!");
+          mainChild = errorText("Выберите группу для\nпросмотра расписания!");
           break;
         }
 
-        final List<PeriodEntity> periods =
+        const String infoDateFormat = "dd.MM.yy в HH:mm";
+
+        String scheduleInfo;
+        try {
+          final ScheduleRecordEntity usedRecord = scheduleRecordsValue
+              .singleWhere(
+                (ScheduleRecordEntity e) =>
+                    e.json.contains(selectedGroupSchedule),
+                orElse: () => throw const FormatException(),
+              );
+
+          scheduleInfo =
+              "обновлено ${DateFormat(infoDateFormat).format(usedRecord.updated.toLocal())}";
+        } on FormatException {
+          scheduleInfo = "отсутствует";
+        }
+
+        String substitutionsInfo;
+        try {
+          final SubstitutionRecordEntity usedRecord = substitutionRecordsValue
+              .singleWhere(
+                (SubstitutionRecordEntity e) =>
+                    selectedSubstitutions.every(e.json.contains),
+                orElse: () => throw const FormatException(),
+              );
+
+          substitutionsInfo =
+              "обновлены ${DateFormat(infoDateFormat).format(usedRecord.updated.toLocal())}";
+        } on FormatException {
+          substitutionsInfo = "отсутствуют";
+        }
+
+        infoChild = CustomTile(
+          height: 60,
+          child: Row(
+            spacing: 16,
+            children: <Widget>[
+              const Icon(Icons.info_rounded),
+              Text(
+                "Расписание: $scheduleInfo\nЗамены: $substitutionsInfo",
+                style: context.styles.openSansRegular14_18.copyWith(
+                  color: context.palette.contrastSecondary,
+                ),
+              ),
+            ],
+          ),
+        );
+
+        final List<PeriodEntity> selectedPeriods =
             selectedGroupSchedule.daySchedules
                 .getByWeekday(_selectedDate.value.weekday)
                 ?.periods ??
             const <PeriodEntity>[];
 
-        if (periods.isEmpty && selectedGroupSubstitutions.isEmpty) {
-          centerChild = errorText("Пары отсутствуют!");
+        if (selectedPeriods.isEmpty && selectedSubstitutions.isEmpty) {
+          mainChild = errorText("Пары отсутствуют!");
           break;
         }
 
-        return Column(
+        wrapWithContainer = false;
+        mainChild = Column(
           children: _buildScheduleColumnChildren(
-            periods,
-            selectedGroupSubstitutions,
+            selectedPeriods,
+            selectedSubstitutions,
           ).toList(),
         );
+
       emptySchedule:
       case (AsyncError<List<GroupScheduleEntity>>(), _):
       case (_, AsyncError<List<SubstitutionEntity>>()):
-        centerChild = errorText("Расписание отсутствует!");
+        mainChild = errorText("Расписание отсутствует!");
 
       default:
-        centerChild = const CircularProgressIndicator();
+        mainChild = const CircularProgressIndicator();
     }
 
-    return Container(
-      padding: const .all(16),
-      constraints: const .new(minHeight: 180),
-      child: Center(child: centerChild),
+    return Column(
+      children: <Widget>[
+        if (wrapWithContainer)
+          Container(
+            padding: const .all(16),
+            constraints: const .new(minHeight: 180),
+            child: Center(child: mainChild),
+          )
+        else
+          mainChild,
+        ?infoChild,
+      ],
     );
   }
 
@@ -206,7 +269,7 @@ class ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
             continue hasSubgroup;
           }
 
-          yield ScheduleTile(period: singlePeriod, onPressed: null);
+          yield ScheduleTile(period: singlePeriod);
         hasSubgroup:
         default:
           yield Row(
@@ -222,11 +285,7 @@ class ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
         periodSubgroup,
       );
 
-      yield Expanded(
-        child: periodWithMatchingSubgroup == null
-            ? const SizedBox()
-            : ScheduleTile(period: periodWithMatchingSubgroup, onPressed: null),
-      );
+      yield Expanded(child: ScheduleTile(period: periodWithMatchingSubgroup));
     }
   }
 
@@ -234,14 +293,14 @@ class ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
       _dateController.text = DateFormat("dd.MM.yy").format(_selectedDate.value);
 
   Future<void> _showDatePicker() async {
-    const bool useTestData = .fromEnvironment("USE_TEST_DATA");
-    final DateTime currentDate =
-        (useTestData ? DateTime(2026, 2, 16) : DateTime.now()).asCropped();
+    final DateTime currentDate = .now().crop();
 
     final DateTime? selectedDate = await showDatePicker(
       context: context,
-      initialDate: useTestData ? null : _selectedDate.value,
-      firstDate: currentDate.add(const .new(days: -7)),
+      initialDate: _selectedDate.value,
+      firstDate: const .fromEnvironment("DEBUG_DATE_PICKER")
+          ? currentDate.copyWith(year: currentDate.year - 2)
+          : currentDate.subtract(const .new(days: 7)),
       lastDate: currentDate.add(const .new(days: 6)),
       currentDate: currentDate,
       initialEntryMode: .calendarOnly,
@@ -270,11 +329,14 @@ class ScheduleWidgetState extends ConsumerState<ScheduleWidget> {
   }
 
   void _reloadProviders() => ref
-    ..invalidate(schedulesProvider, asReload: true)
-    ..invalidate(substitutionsProvider(_selectedDate.value), asReload: true);
+    ..invalidate(scheduleRecordsProvider, asReload: true)
+    ..invalidate(
+      substitutionRecordsProvider(_selectedDate.value),
+      asReload: true,
+    );
 
-  Future<void> get refreshProvidersFuture => .wait(<Future<void>>[
-    ref.refresh(schedulesProvider.future),
-    ref.refresh(substitutionsProvider(_selectedDate.value).future),
+  Future<void> refreshProviders() => .wait(<Future<void>>[
+    ref.refresh(scheduleRecordsProvider.future),
+    ref.refresh(substitutionRecordsProvider(_selectedDate.value).future),
   ]);
 }

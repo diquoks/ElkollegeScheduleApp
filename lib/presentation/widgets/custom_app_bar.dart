@@ -21,7 +21,10 @@ class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
               color: context.palette.contrast,
             ),
           ),
-          Row(spacing: 8, children: _actions),
+          Row(
+            spacing: 8,
+            children: <Widget>[const ThemeIconButton(), ..._actions],
+          ),
         ],
       ),
     );

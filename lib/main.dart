@@ -10,7 +10,9 @@ void main() async {
     ProviderScope(
       overrides: <Override>[
         sharedPreferencesProvider.overrideWithValue(
-          await .create(cacheOptions: .new(allowList: StorageManager.keys)),
+          await .create(
+            cacheOptions: const .new(allowList: StorageManager.keys),
+          ),
         ),
       ],
       child: const Application(),

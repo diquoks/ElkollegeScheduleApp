@@ -1,3 +1,3 @@
 export "models/models.dart";
-export "services/services.dart";
+export "notifiers/notifiers.dart";
 export "use_cases/use_cases.dart";

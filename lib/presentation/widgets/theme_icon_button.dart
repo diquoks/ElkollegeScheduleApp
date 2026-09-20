@@ -8,8 +8,8 @@ class ThemeIconButton extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return CustomIconButton(
-      icon: ref.watch(themeServiceProvider).toIcon(),
-      onPressed: ref.read(themeServiceProvider.notifier).switchTheme,
+      icon: ref.watch(themeModeProvider).toIcon(),
+      onPressed: ref.read(themeModeProvider.notifier).switchTheme,
     );
   }
 }

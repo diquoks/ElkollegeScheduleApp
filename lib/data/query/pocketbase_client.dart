@@ -26,20 +26,23 @@ class const PocketbaseClient({required final PocketBase _pb}) {
 
 extension RefDebouncedPocketbaseClientX on Ref {
   Future<PocketbaseClient> getDebouncedPocketbaseClient() async {
+    const String pocketbaseBaseUrl = .fromEnvironment("POCKETBASE_BASE_URL");
+
+    if (pocketbaseBaseUrl.isEmpty) {
+      throw StateError("POCKETBASE_BASE_URL environment variable is not set!");
+    }
+
     bool didDispose = false;
     onDispose(() => didDispose = true);
 
     await Future<void>.delayed(const .new(milliseconds: 500));
 
     if (didDispose) {
-      throw Exception("Cancelled");
+      throw Exception("The associated request was cancelled.");
     }
 
     final PocketbaseClient client = .new(
-      pb: .new(
-        const .fromEnvironment("POCKETBASE_BASE_URL"),
-        reuseHTTPClient: true,
-      ),
+      pb: .new(pocketbaseBaseUrl, reuseHTTPClient: true),
     );
     onDispose(client._pb.close);
 

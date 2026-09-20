@@ -8,10 +8,10 @@ part "substitution_record_dto.g.dart";
 class const SubstitutionRecordDto({
   required final String id,
   required final String building,
-  required final DateTime utcDate,
+  @PocketbaseDateTimeConverter() required final DateTime utcDate,
   required final List<SubstitutionDto> json,
-  required final DateTime created,
-  required final DateTime updated,
+  @PocketbaseDateTimeConverter() required final DateTime created,
+  @PocketbaseDateTimeConverter() required final DateTime updated,
 }) extends Dto {
   factory fromJson(Map<String, dynamic> json) =>
       _$SubstitutionRecordDtoFromJson(json);

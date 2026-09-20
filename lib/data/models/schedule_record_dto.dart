@@ -9,8 +9,8 @@ class const ScheduleRecordDto({
   required final String id,
   required final String building,
   required final List<GroupScheduleDto> json,
-  required final DateTime created,
-  required final DateTime updated,
+  @PocketbaseDateTimeConverter() required final DateTime created,
+  @PocketbaseDateTimeConverter() required final DateTime updated,
 }) extends Dto {
   factory fromJson(Map<String, dynamic> json) =>
       _$ScheduleRecordDtoFromJson(json);

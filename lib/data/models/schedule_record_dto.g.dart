@@ -13,8 +13,12 @@ ScheduleRecordDto _$ScheduleRecordDtoFromJson(Map<String, dynamic> json) =>
       json: (json['json'] as List<dynamic>)
           .map((e) => GroupScheduleDto.fromJson(e as Map<String, dynamic>))
           .toList(),
-      created: DateTime.parse(json['created'] as String),
-      updated: DateTime.parse(json['updated'] as String),
+      created: const PocketbaseDateTimeConverter().fromJson(
+        json['created'] as String,
+      ),
+      updated: const PocketbaseDateTimeConverter().fromJson(
+        json['updated'] as String,
+      ),
     );
 
 Map<String, dynamic> _$ScheduleRecordDtoToJson(ScheduleRecordDto instance) =>
@@ -22,6 +26,6 @@ Map<String, dynamic> _$ScheduleRecordDtoToJson(ScheduleRecordDto instance) =>
       'id': instance.id,
       'building': instance.building,
       'json': instance.json.map((e) => e.toJson()).toList(),
-      'created': instance.created.toIso8601String(),
-      'updated': instance.updated.toIso8601String(),
+      'created': const PocketbaseDateTimeConverter().toJson(instance.created),
+      'updated': const PocketbaseDateTimeConverter().toJson(instance.updated),
     };

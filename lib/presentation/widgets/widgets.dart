@@ -4,6 +4,7 @@ export "custom_dropdown_menu.dart";
 export "custom_icon_button.dart";
 export "custom_refresh_indicator.dart";
 export "custom_text_field.dart";
+export "custom_tile.dart";
 export "schedule_tile.dart";
 export "schedule_widget.dart";
 export "theme_icon_button.dart";

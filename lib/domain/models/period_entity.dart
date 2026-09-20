@@ -15,10 +15,6 @@ class const PeriodEntity({
     lecturer: lecturer,
     room: room,
   );
-
-  bool get isEmpty => subject.isEmpty;
-
-  bool get isNotEmpty => !isEmpty;
 }
 
 extension ListPeriodEntityUtilsX on List<PeriodEntity> {
@@ -34,14 +30,20 @@ extension ListPeriodEntityUtilsX on List<PeriodEntity> {
     final List<PeriodEntity> periods = toList();
 
     for (final SubstitutionEntity substitution in substitutions) {
-      periods.removeWhere(
-        (PeriodEntity e) =>
-            e.number == substitution.period.number &&
-            e.subgroup == substitution.period.subgroup,
-      );
+      if (substitution.period != null) {
+        periods.removeWhere(
+          (PeriodEntity e) =>
+              e.number == substitution.period!.number &&
+              e.subgroup == substitution.period!.subgroup,
+        );
+      }
 
-      if (substitution.substitution.isNotEmpty) {
-        periods.add(substitution.substitution);
+      if (substitution.substitution != null) {
+        if (substitution.substitution!.subject.isEmpty) {
+          continue; // TODO: make parser not to return empty periods
+        }
+
+        periods.add(substitution.substitution!);
       }
     }
 

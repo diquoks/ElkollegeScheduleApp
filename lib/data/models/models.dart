@@ -1,3 +1,4 @@
+export "converters/converters.dart";
 export "day_schedule_dto.dart";
 export "dto.dart";
 export "group_schedule_dto.dart";
